@@ -1,0 +1,165 @@
+{
+        "header": {
+            "register": "Registre-se",
+            "login": "Entrar",
+            "links": {
+                "1": "Início",
+                "2": "Resultados",
+                "3": "Benefício",
+                "4": "Depoimentos"
+            }
+        },
+        "main": {
+            "content1": "A PLATAFORMA ",
+            "content2": "CERTA ",
+            "content3": "PARA INVESTIMENTOS ONLINE EM ",
+            "content4": "OPÇÕES BINÁRIAS",
+            "subContent": "SIMPLES,SEGURA E EFICIENTE",
+            "cards": {
+                "title": "NOSSOS DIFERENCIAIS",
+                "security": {
+                    "title": "SEGURANÇA",
+                    "content": "Sistema 100% criptografado, trazendo mais segurança em suas operações e mais proteção do seu capital"
+                },
+                "demo": {
+                    "title": "CONTA DEMO",
+                    "content": "Utilize sua conta de treinamento para  definir suas estratégias e testar suas operações com valor fictício e obtenha ótimos resultados em sua conta real. "
+                },
+                "depositsWithdraws": {
+                    "title": "DEPÓSITOS E RETIRADAS",
+                    "content": "A forma mais rápida e prática para efetuar depósitos e retiradas."
+                },
+                "tradingSpeed": {
+                    "title": "VELOCIDADE NA OPERAÇÃO",
+                    "content": "Plataforma 100% automatizada, que lhe traz uma experiência em operações binárias eficiente e rápida, com taxas sem delays"
+                }
+            }
+        },
+        "footer": {
+            "followUs": "SIGA-NOS",
+            "moreInfo": "Mais Informações",
+            "keepUpToDate": "Mantenha-se atualizado",
+            "placeholderEmail": "Digite o seu melhor E-mail",
+            "signUp": "Inscreva-se",
+            "allRights": "Todos os direitos reservados ©",
+            "TermsOfUse": "Termos de uso",
+            "PrivacyPolicy": "Política de Privacidade",
+            "affiliate": "Seja Afiliado"
+        },
+        "terms": {
+            "title": "Termos de condições",
+            "paragraph1": "A Monyxx fornece seus serviços exclusivamente nos territórios em que é licenciada. A Monyxx não está autorizada pela Comissão de Valores Mobiliários (CVM) a oferecer diretamente serviços de distribuição de valores mobiliários a investidores residentes, domiciliados ou incorporados na República Federativa do Brasil. Nada neste site deve ser entendido como uma oferta direta de serviços endereçados a esses investidores.",
+            "paragraph2": "Investir em CFD’s envolve riscos, inclusive perda de capital.",
+            "paragraph3": "Os tempos de resposta do sistema e de acesso à conta podem variar devido a uma variedade de fatores, incluindo volumes de negociação, condições de mercado, desempenho do sistema e outros fatores.",
+            "paragraph4": "Quando um investimento é denominado em uma moeda que não seja a moeda do investidor, as mudanças nas taxas de câmbio podem ter um efeito adverso no valor, preço ou receita derivada do investimento.",
+            "paragraph5": "Os investidores devem considerar cuidadosamente os objetivos, riscos e encargos e despesas antes de investir. Antes de investir em qualquer serviço ofertado pela Monyxx, considere seu objetivo, riscos, encargos e despesas de investimento. Entre em contato conosco em support@monyx.com para obter um prospecto, ou, se disponível, um resumo contendo essas informações. Leia atentamente. Os CFD’s estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Os CFD’s estão sujeitos a taxas de administração e outras despesas. Os retornos do investimento variam e estão sujeitos à volatilidade do mercado, de modo que quando resgatadas ou vendidas, podem valer mais ou menos do que seu custo original. Os CFD’s estão sujeitos a riscos semelhantes aos das ações. Esses produtos são para investidores sofisticados que entendem seus riscos e que pretendem monitorar e gerenciar ativamente seus investimentos diariamente.",
+            "paragraph6": "Certifique-se de considerar sua própria situação financeira, realizar uma pesquisa completa e consultar um profissional tributário qualificado antes de tomar qualquer decisão de investimento referente a CFD’s. Lembre-se de que, embora a diversificação possa ajudar a espalhar riscos, ela não garante lucro nem protege contra perdas. Sempre existe o potencial de perder dinheiro quando você investe em valores mobiliários ou outros produtos financeiros. Os investidores devem considerar cuidadosamente seus objetivos e riscos de investimento antes de investir. O preço de um determinado ativo pode aumentar ou diminuir com base nas condições do mercado e os clientes podem perder dinheiro, incluindo seu investimento original.",
+            "paragraph7": "As informações fornecidas neste site são de natureza geral e não pretendem substituir um aconselhamento individualizado e específico sobre impostos, leis ou planejamento de investimentos. Os investidores devem se informar e, quando apropriado, consultar um profissional sobre possíveis consequências fiscais associadas à oferta, compra, posse ou alienação de ativos de acordo com as leis de seu país de cidadania, residência, domicílio ou incorporação. Alterações legislativas, administrativas ou judiciais podem modificar as consequências tributárias e, como é o caso de qualquer investimento, não há garantia de que a posição fiscal ou a posição tributária proposta que prevalece no momento em que um investimento é realizado durará indefinidamente. Nada neste site deve ser considerado uma oferta, recomendação, solicitação de oferta ou conselho para comprar ou vender qualquer ativo.",
+            "paragraph8": "Monyxx é o nome da marca e da plataforma digital. As marcas registradas e os logotipos são de propriedade de seus respectivos proprietários e não representam nenhum tipo de endosso.",
+            "paragraph9": "Veja todos os avisos importantes sobre investimentos.",
+            "paragraph10": "© 2020 Monyxx"
+        },
+        "payment_policy": {
+            "title": "POLÍTICA DE PAGAMENTO",
+            "group1": {
+                "title": "DISPOSIÇÕES GERAIS", 
+                "paragraph1": "A negociação com saldo real na plataforma só será possível quando o usuário tiver fundos depositados em sua carteira real.",
+                "paragraph2": "A quantidade de fundos corresponde ao saldo do usuário na conta de negociação.",
+                "paragraph3": "As obrigações financeiras da plataforma para com o usuário são iniciadas com o depósito de fundos pelo usuário em sua respectiva conta de negociação.",
+                "paragraph4": "As obrigações financeiras da plataforma para com o usuário estarão sempre limitadas ao saldo da conta de negociação.",
+                "paragraph5": "Todas as obrigações financeiras da plataforma para com o usuário são encerradas com a retirada total do saldo da conta de negociação.",
+                "paragraph6": "A plataforma oferecerá ao usuário as opções de depósito.",
+                "paragraph7": "O método de saque deve ser sempre o mesmo utilizado para efetuar o depósito.",
+                "paragraph8": "A plataforma não é parceira de nenhuma opção de depósito oferecida. Portanto, o usuário entende e concorda que quaisquer problemas decorrentes de falhas no sistema de pagamento e recebimento não são de responsabilidade da plataforma.",
+                "paragraph9": "O usuário entende e concorda que todos os riscos de falhas, interrupções e/ou indisponibilidade dos meios de pagamento não são de responsabilidade da plataforma."
+            },
+            "group2": {
+                "title": "CADASTRO", 
+                "paragraph1": "O usuário entende e concorda que faz parte de suas obrigações como usuário da plataforma fornecer e manter atualizadas todas as informações exigidas no formulário de cadastro.",
+                "paragraph2": "Além das informações declaradas pelo usuário, a plataforma poderá solicitar, a seu exclusivo critério, o envio de documentos pessoais do cliente.",
+                "paragraph3": "A plataforma pede preferencialmente a seus usuários uma foto de passaporte acompanhada de uma pessoa segurando-a.",
+                "paragraph4": "A plataforma solicita preferencialmente aos seus usuários uma foto de comprovante de residência (água, luz, telefone, gás, extrato bancário) de propriedade exclusiva do cliente, não sendo aceitos em nenhuma hipótese comprovantes em nome de terceiros.",
+                "paragraph5": "O usuário entende e concorda que a plataforma utiliza mecanismos próprios e de terceiros para identificar e combater fraudes documentais, sejam documentos de identificação pessoal ou comprovantes de endereço.",
+                "paragraph6": "O usuário entende e concorda que o não envio das informações e/ou documentos solicitados poderá resultar no bloqueio e/ou encerramento da conta.",
+                "paragraph7": "O usuário entende e concorda que ao se cadastrar na plataforma, todos os termos e condições propostos pela plataforma são de seu conhecimento e que concorda com todos eles.",
+                "paragraph8": "O usuário entende e concorda que ao se cadastrar no site da plataforma, todos os termos da política de pagamento são compreendidos e aceitos pelo usuário.",
+                "paragraph9": "O usuário entende e concorda que terá 15 (quinze) dias úteis para enviar os documentos solicitados, sob pena de bloqueio e/ou encerramento da conta de negociação.",
+                "paragraph10": "O usuário entende e concorda que a plataforma terá até 60 (sessenta) dias para processar a documentação fornecida, podendo este prazo se estender por mais 30 (trinta) dias dependendo da demanda."
+            },
+            "group3": {
+                "title": "DEPÓSITO", 
+                "paragraph1": "3.1. O depósito de fundos na conta de negociação ocorre mediante solicitação do usuário em campo específico para depósitos na plataforma.",
+                "paragraph2": "3.2. O usuário preencherá as informações solicitadas no formulário de depósito eletrônico, que pode incluir: Nome completo, cadastro individual, endereço, valor do depósito, moeda e outras informações a critério exclusivo da plataforma.",
+                "paragraph3": "3.3. O usuário entende e concorda que o prazo para recebimento de fundos em sua conta de negociação depende exclusivamente do sistema de pagamento da forma escolhida para o depósito.",
+                "paragraph4": "3.4. A plataforma não se responsabiliza por eventuais atrasos e/ou problemas decorrentes dos sistemas de pagamento do método escolhido pelo usuário.",
+                "paragraph5": "3.5. O usuário entende e concorda que o depósito deve ser originado, obrigatoriamente, de uma conta bancária/carteira digital de sua titularidade, sendo vedado, em qualquer hipótese, o depósito de recursos oriundos de contas/carteiras digitais de terceiros.",
+                "paragraph6": "3.6. O usuário entende e concorda que o descumprimento do item anterior (3.5) poderá acarretar o bloqueio e/ou encerramento imediato de sua conta de negociação."
+            },
+            "group4": {
+                "title": "RETIRADA", 
+                "paragraph1": "4.1. O usuário pode, a qualquer momento, fazer um pedido de saque em um campo específico da plataforma.",
+                "paragraph2": "4.2. O usuário entende e concorda que todas as retiradas devem atender aos requisitos dos termos e condições para serem processadas, sob pena de rejeição.",
+                "paragraph3": "4.3. O usuário entende e concorda que não serão aceitos pedidos de saques para contas bancárias de titularidade diferente da conta de negociação.",
+                "paragraph4": "4.4. O usuário não poderá fazer uma solicitação de saque de um valor que exceda o saldo da conta de negociação.",
+                "paragraph5": "4.5. O usuário entende e concorda que só poderá fazer solicitações de saque na mesma moeda de sua conta de negociação.",
+                "paragraph6": "4.6. O usuário entende e concorda que a plataforma tem o direito de solicitar ao usuário uma conta de depósito diferente da cadastrada no sistema. Nesse caso, o usuário fica obrigado a fornecer todas as informações solicitadas, sob pena de indeferimento do pedido de retirada.",
+                "paragraph7": "4.7. O usuário entende e concorda que a plataforma não efetua pagamentos e recebimentos de fundos da conta de negociação, sendo este serviço realizado por empresas terceirizadas.",
+                "paragraph8": "4.8. O usuário entende e concorda que a plataforma não pode ser responsabilizada por quaisquer disputas entre a empresa de pagamento e recebimento de terceiros e o usuário.",
+                "paragraph9": "4.9. O usuário entende e concorda que a plataforma tem o direito de regular os valores de saque, bem como estabelecer os limites mínimo e máximo para cada saque, dependendo da moeda de saque, forma de pagamento e recebimento escolhida pelo usuário e a liquidez da plataforma.",
+                "paragraph10": "4.10. O usuário entende e concorda que a plataforma terá até 30 dias para processar e concluir a solicitação de saque."
+            },
+            "group5": {
+                "title": "MÉTODOS DE RETIRADA", 
+                "paragraph1": "5.1. Pagamento eletrônico:",
+                "paragraph2": "5.1.1. Caso a plataforma ofereça esse tipo de saque, o usuário poderá solicitar o saque de fundos para uma carteira eletrônica de sua propriedade;",
+                "paragraph3": "5.1.2. A plataforma processará o pedido de acordo com as informações fornecidas pelo usuário;",
+                "paragraph4": "5.1.3. O usuário entende e concorda que a plataforma não pode ser responsabilizada por falhas de software e/ou falhas técnicas que atrasem ou impossibilitem o pagamento;",
+                "paragraph5": "5.1.4. O usuário entende e concorda que a plataforma não é obrigada a fornecer meios eletrônicos de pagamento, sendo que esta modalidade será oferecida de acordo com a disponibilidade e conveniência para a plataforma."
+            },
+            "group6": {
+                "title": "IMPOSTOS", 
+                "paragraph1": "O usuário entende e concorda que a plataforma não fornece informações de lucros/prejuízos às autoridades fiscais. Assim, é de exclusiva responsabilidade do usuário atualizar seus registros de ganhos/perdas junto aos órgãos competentes, se for o caso."
+            },
+            "group7": {
+                "title": "OBRIGAÇÕES", 
+                "paragraph1": "7.1. Todas as informações pessoais fornecidas pelo usuário são de sua responsabilidade. Desta forma, a plataforma não se responsabiliza por erros, atrasos ou falhas resultantes do fornecimento incorreto de informações.",
+                "paragraph2": "7.2. Caso a plataforma, por meio de sistemas próprios ou auxiliares, identifique alguma tentativa de fraude, a conta do usuário será bloqueada e/ou encerrada instantaneamente.",
+                "paragraph3": "7.3. Caso a plataforma, por meio de sistemas próprios ou auxiliares, identifique indícios de lavagem de dinheiro, a conta do usuário será bloqueada e/ou encerrada instantaneamente.",
+                "paragraph4": "7.4. A responsabilidade pela retirada de fundos da plataforma termina quando a solicitação de retirada é processada e executada pela empresa de pagamento e recebimento de terceiros. Desta forma, a plataforma não pode ser responsabilizada por falhas e/ou erros técnicos causados pelos sistemas de pagamento.",
+                "paragraph5": "7.5. A plataforma terá o direito de cancelar o pedido de retirada caso identifique erros e/ou falhas humanas de seus funcionários, a fim de evitar danos à plataforma e ao usuário."
+            }
+        },
+        "privacy_policy": {
+            "title": "POLÍTICA DE PRIVACIDADE",
+            "group1": {
+                "title": "1. DISPOSIÇÕES GERAIS",
+                "paragraph1": "1.1. A plataforma Monyxx está comprometida com a segurança e confidencialidade das informações pessoais de seus usuários.",
+                "paragraph2": "1.2. A plataforma segue todos os procedimentos de segurança para garantir a privacidade das informações de seus usuários.",
+                "paragraph3": "1.3. A política de privacidade de que trata este documento engloba todos os procedimentos de captura, processamento, armazenamento e utilização das informações pessoais de seus usuários.",
+                "paragraph4": "1.4. O cadastro na plataforma pelo usuário confirma que ele compreende e concorda com todos os itens deste documento."
+            },
+            "group2": {
+                "title": "2. INFORMAÇÕES",
+                "paragraph1": "2.1 A plataforma, de forma a garantir a sua segurança e a do utilizador, pode, a qualquer momento, solicitar as seguintes informações:",
+                "paragraph2": "2.1.1. Dados cadastrais; O processo de registro e compliance na plataforma pode solicitar a seus usuários informações básicas como nome, telefone, endereço, senhas, etc.",
+                "paragraph3": "2.1.2. Documentos pessoais; A plataforma pode solicitar, a qualquer momento, a documentação que considere necessária e indispensável para a confirmação da identidade do cliente, sem prejuízo das informações e/ou outros documentos que já tenham sido disponibilizados. O usuário entende e concorda que deve apresentar todos os documentos solicitados, como comprovante de pagamento, comprovante de residência, extrato bancário, documentos fiscais, etc.",
+                "paragraph4": "2.1.3. Dados; Em determinadas situações, a plataforma pode receber informações do usuário dos dispositivos eletrônicos que são utilizados pelo usuário, como localização, endereço IP, etc.",
+                "paragraph5": "2.2. Informações técnicas - para melhorar o desempenho dos serviços oferecidos pela plataforma ao cliente, algumas informações técnicas como domínio, idioma, navegadores e sistema operacional utilizados podem ser armazenadas e utilizadas pela plataforma.",
+                "paragraph6": "2.3. Informação analítica - de forma a melhorar o desempenho dos serviços oferecidos pela plataforma ao cliente, algumas informações analíticas como os cliques que o utilizador faz, o tempo que passa numa determinada página, preferências de visualização, etc. ser usado pela plataforma principalmente para corrigir erros e/ou inconsistências.",
+                "paragraph7": "2.4. Estatísticas – a plataforma pode, a qualquer momento, recolher, estruturar e transmitir a terceiros a informação estatística de cada utilizador. Essas informações incluem o histórico de transações, o tipo de ativo mais lucrativo, os horários de cada entrada, etc."
+            },
+            "group3": {
+                "title": "3. USO DE INFORMAÇÕES",
+                "paragraph1": "3.1. Nos casos em que necessário e desde que pautados pela razoabilidade, legalidade e bons costumes, a plataforma poderá divulgar os dados pessoais dos utilizadores a terceiros, especialmente nos casos em que:",
+                "paragraph2": "3.1.1. Envolver tentativa de fraude contra a plataforma;",
+                "paragraph3": "3.1.2. Suspeitos de crimes contra a plataforma são identificados;",
+                "paragraph4": "3.1.3. Envolver solicitações do judiciário e/ou do poder público;",
+                "paragraph5": "3.1.4. Envolvem práticas criminosas e/ou atividades fraudulentas;",
+                "paragraph6": "3.2. A empresa obtém as informações pessoais do cliente apenas no processo de prestação de seus próprios serviços.",
+                "paragraph7": "3.3. A plataforma não se responsabiliza pelas políticas de privacidade de suas empresas parceiras, sendo o cliente o único responsável pela leitura atenta dos termos e condições que cada uma delas oferece.",
+                "paragraph8": "3.4. A plataforma sempre investirá em segurança da informação e em equipamentos capazes de cuidar das informações pessoais dos usuários. No entanto, o usuário entende e concorda que nem sempre isso será suficiente para evitar ataques que possam prejudicar a confidencialidade dessas informações.",
+                "paragraph9": "3.5. O utilizador pode, a qualquer momento, solicitar à plataforma que edite e/ou corrija os seus dados pessoais que apresentem erros e/ou imprecisões.",
+                "paragraph10": "3.6 A plataforma armazenará os dados pessoais de seus usuários pelo tempo que julgar conveniente."
+            }
+        }
+}

@@ -1,0 +1,159 @@
+{
+        "header": {
+            "register": "Register",
+            "login": "Log in"
+        },
+        "main": {
+            "content1": "THE ",
+            "content2": "RIGHT ",
+            "content3": "PLATFORM FOR ONLINE INVESTMENT IN ",
+            "content4": "BINARY OPTIONS",
+            "subContent": "SIMPLE, SAFE AND EFFICIENT",
+            "cards": {
+                "title": "OUR DIFFERENTIALS",
+                "security": {
+                    "title": "SAFETY",
+                    "content": "100% encrypted system, bringing more security to your operations and more protection of your capital"
+                },
+                "demo": {
+                    "title": "DEMO ACCOUNT",
+                    "content": "Use your training account to define your strategies and test your trades with fictitious value and get great results in a real account obtenha"
+                },
+                "depositsWithdraws": {
+                    "title": "DEPOSITS AND WITHDRAWALS",
+                    "content": "The fastest and most practical way to make deposits and withdrawals."
+                },
+                "tradingSpeed": {
+                    "title": "OPERATION SPEED",
+                    "content": "100% Automated platform, which brings you an efficient and fast binary trading experience, with fees without delays"
+                }
+            }
+        },
+        "footer": {
+            "followUs": "Follow us",
+            "moreInfo": "More information",
+            "keepUpToDate": "Keep yourself updated",
+            "placeholderEmail": "Enter your best Email",
+            "signUp": "Sign up",
+            "allRights": "All Rights Reserved ©",
+            "TermsOfUse": "Terms Of Use",
+            "PrivacyPolicy": "Privacy Policy",
+            "affiliate": "Be an Affiliate"
+        },
+        "terms": {
+            "title": "Terms of conditions",
+            "paragraph1": "Monyxx provides its services exclusively in the territories in which it is licensed. Monyxx is authorized by the Securities and Exchange Commission (CVM) to offer non-securable securities distribution services to investors residing, domiciled or incorporated in the Federative Republic of Brazil. Nothing on this website should be understood as a direct offer of services addressed to these investors.",
+            "paragraph2": "Investing in CFDs involves risks, including loss of capital.",
+            "paragraph3": "System response and account access times may vary due to a variety of factors, including trading volumes, market conditions, system performance, and other factors.",
+            "paragraph4": "When an investment is denominated in a currency other than the investor's currency, changes in exchange rates could have an adverse effect on the value, price or income derived from the investment.",
+            "paragraph5": "Investors should carefully consider objectives, risks and charges and expenses before investing. Before investing in any service offered by Monyxx, consider its objective, risks, charges and investment expenses. Please contact us at support@monyxx.com for a prospectus, or, if available, a summary containing this information. Read carefully. CFDs are subject to market fluctuation and the risks of their underlying investments. CFDs are subject to administration fees and other expenses. Investment returns vary and are subject to market volatility, so when redeemed or sold, they may be worth more or less than their original cost. CFDs are subject to similar risks to stocks. These products are for sophisticated investors who understand their risks and who want to actively monitor and manage their investments on a daily basis.",
+            "paragraph6": "Be sure to consider your own financial situation, conduct thorough research and consult with a qualified tax professional before making any investment decision regarding CFDs. Remember that while diversification can help spread risk, it does not guarantee profit or protect against loss. There is always the potential to lose money when you invest in securities or other financial products. Investors should carefully consider their investment objectives and risks before investing. The price of a particular asset can increase or decrease based on market conditions and customers can lose money, including their original investment.",
+            "paragraph7": "The information provided on this website is of a general nature and is not intended to be a substitute for individualized and specific advice on tax, law or investment planning. Investors should inform themselves and, where appropriate, consult a professional about possible tax consequences associated with the offer, purchase, possession or disposition of assets in accordance with the laws of their country of citizenship, residence, domicile or incorporation. Legislative, administrative or judicial changes may modify the tax consequences and, as is the case with any investment, there is no guarantee that the tax position or proposed tax position prevailing at the time an investment is made will last indefinitely. Nothing on this website should be considered an offer, recommendation, solicitation of an offer or advice to buy or sell any asset.",
+            "paragraph8": "Monyxx is the name of the brand and digital platform. Trademarks and logos are the property of their respective owners and do not represent any kind of endorsement.",
+            "paragraph9": "See all important investment notices.",
+            "paragraph10": "© 2020 Monyxx"
+        },
+        "payment_policy": {
+            "title": "PAYMENT POLICY",
+            "group1": {
+                "title": "GENERAL PROVISIONS", 
+                "paragraph1": "Trading with real balance on the platform will only be possible once the user has funds deposited in their real wallet.",
+                "paragraph2": "The amount of funds corresponds to the user's balance on the trading account.",
+                "paragraph3": "The platform's - nancial obligations to the User are initiated with the deposit of funds by the User into their respective trading account. ",
+                "paragraph4": "The nancial obligations of the platform to the user will always be limited to the balance of the trading account.",
+                "paragraph5": "All nancial obligations of the platform to the user are terminated with the full withdrawal of the balance from the trading account.",
+                "paragraph6": "The platform will offer the user the deposit options. The withdrawal method must always be the same used to make the deposit.",
+                "paragraph7": "The platform is not partnered with any deposit option offered.",
+                "paragraph8": "Therefore, the user understands and agrees that any problems arising from failures in the payment and receipt system are not the responsibility of the platform",
+                "paragraph9": "The user understands and agrees that all risks of failures, interruptions and/or unavailability of payment methods are not the responsibility of the platform."
+            },
+            "group2": {
+                "title": "REGISTRATION", 
+                "paragraph1": "The user understands and agrees that it is part of his obligations as a user of the platform to provide and keep up to date all the information required in the registration form. ",
+                "paragraph2": "In addition to the information that is declared by the user, the platform may request, at its sole discretion, the sending of the customer's personal documents.",
+                "paragraph3": "The platform preferably asks its users for a passport photo accompanied by a sele holding it.",
+                "paragraph4": "The platform preferably asks its users for a photo of proof of residence (water, electricity, telephone, gas, bank statement) owned exclusively by the customer, and proofs on behalf of third parties are not accepted under any circumstances. ",
+                "paragraph5": "The user understands and agrees that the platform uses its own and third-party mechanisms to identify and combat document fraud, whether personal identication documents or proof of address. ",
+                "paragraph6": "The user understands and agrees that failure to send the requested information and/or documents may result in the account being blocked and/or closed. ",
+                "paragraph7": "The user understands and agrees that when registering on the platform, all terms and conditions proposed by the platform are known to him and that he agrees with all of them. ",
+                "paragraph8": "The user understands and agrees that when registering on the platform's website, all terms of the payment policy are understood and accepted by the user.",
+                "paragraph9": "The user understands and agrees that he will have 15 (fifteen) business days to send the requested documents, under penalty of blocking and/or closing the trading account.",
+                "paragraph10": "The user understands and agrees that the platform will have up to 60 (sixty) days to process the documentation provided, and this period may extend for another 30 (thirty) days depending on demand. "
+            },
+            "group3": {
+                "title": "DEPOSIT", 
+                "paragraph1": "3.1. The deposit of funds in the trading account takes place through the user's request in a specic-eld for deposits on the platform.",
+                "paragraph2": "3.2. The user will ll in the information requested in the electronic deposit form, which may include: Full name, individual registration, address, deposit amount, currency and other information at the sole discretion of the platform. ",
+                "paragraph3": "3.3. The user understands and agrees that the period for receipt of funds in his trading account depends exclusively on the payment system of the method chosen for the deposit.",
+                "paragraph4": "3.4. The platform is not responsible for any delays and/or problems arising from the payment systems of the method chosen by the user.",
+                "paragraph5": "3.5. The user understands and agrees that the deposit must originate, mandatorily, from a bank account/digital wallet owned by the user, being prohibited, in any case, the deposit of funds originating from third-party digital accounts/wallets.",
+                "paragraph6": "3.6. The user understands and agrees that non-compliance with the previous item (3.5) may lead to the blocking and/or immediate termination of his/her trading account."
+            },
+            "group4": {
+                "title": "WITHDRAW", 
+                "paragraph1": "4.1. The user may, at any time, make a withdrawal request in a specic eld on the platform.",
+                "paragraph2": "4.2. The user understands and agrees that all withdrawals must meet the requirements of the terms and conditions in order to be processed, under penalty of rejection.",
+                "paragraph3": "4.3. The user understands and agrees that requests for withdrawals to bank accounts with a different ownership than the trading account will not be accepted.",
+                "paragraph4": "4.4. The user will not be able to make a withdrawal request for an amount that exceeds the balance of the trading account.",
+                "paragraph5": "4.5. The user understands and agrees that he will only be able to make withdrawal requests in the same currency as his trading account.",
+                "paragraph6": "4.6. The user understands and agrees that the platform has the right to ask the user for a deposit account different from the one registered in the system. In this case, the user is obliged to provide all the information requested, under penalty of rejection of the withdrawal request. ",
+                "paragraph7": "4.7. The user understands and agrees that the platform does not make payments and receipts of funds from the trading account, this service being performed by third-party companies.",
+                "paragraph8": "4.8. The user understands and agrees that the platform cannot be held responsible for any disputes between the third party payment and receipt company and the user.",
+                "paragraph9": "4.9. The user understands and agrees that the platform has the right to regulate the withdrawal amounts, as well as set the minimum and maximum limits for each withdrawal, depending on the withdrawal currency, payment and receipt method chosen by the user and the liquidity of the platform. ",
+                "paragraph10": "4.10. The user understands and agrees that the platform will have up to 30 days to process and complete the withdrawal request. "
+            },
+            "group5": {
+                "title": "WITHDRAWAL METHODS", 
+                "paragraph1": "5.1. Electronic payment:",
+                "paragraph2": "5.1.1. If the platform offers this type of withdrawal, the user can make a request to withdraw funds to an electronic wallet owned by them;",
+                "paragraph3": "5.1.2. The platform will process the order according to the information provided by the user;",
+                "paragraph4": "5.1.3. The user understands and agrees that the platform cannot be held responsible for software failures and/or technical failures that delay or make payment impossible;",
+                "paragraph5": "5.1.4. The user understands and agrees that the platform is not obliged to provide electronic means of payment, and this modality will be offered according to the availability and convenience for the platform."
+            },
+            "group6": {
+                "title": "TAXES", 
+                "paragraph1": "The user understands and agrees that the platform does not provide prot/loss information to tax authorities. Thus, it is the exclusive responsibility of the user to update their records of gains/losses with the competent bodies, if applicable."
+            },
+            "group7": {
+                "title": "OBLIGATIONS", 
+                "paragraph1": "7.1. All personal information provided by the user is his responsibility. In this way, the platform will not be held responsible for errors, delays or failures resulting from the incorrect provision of information.",
+                "paragraph2": "7.2. If the platform, through its own or auxiliary systems, identies any fraud attempts, the user's account will be blocked and/or closed instantly.",
+                "paragraph3": "7.3. If the platform, through its own or auxiliary systems, identies signs of money laundering, the user's account will be blocked and/or closed instantly.",
+                "paragraph4": "7.4. The responsibility for withdrawing funds from the platform ends when the withdrawal request is processed and executed by the third party payment and receipt company. In this way, the platform cannot be held responsible for failures and/or technical errors caused by the payment systems.",
+                "paragraph5": "7.5. The platform will have the right to cancel the withdrawal request if it identies errors and/or human failures of its employees, in order to avoid damage to the platform and the user."
+            }
+        },
+        "privacy_policy": {
+            "title": "PRIVACY POLICY",
+            "group1": {
+                "title": "1. GENERAL PROVISIONS",
+                "paragraph1": "1.1. The Monyxx platform is committed to the security and condentiality of its users' personal information.",
+                "paragraph2": "1.2. The platform follows all security procedures to ensure the privacy of its users' information.",
+                "paragraph3": "1.3. The privacy policy dealt with in this document encompasses all procedures for capturing, processing, storing and using the personal information of its users.",
+                "paragraph4": "1.4. The registration on the platform by the user conrms that he understands and agrees with all the items in this document. "
+            },
+            "group2": {
+                "title": "2. INFORMATION",
+                "paragraph1": "2.1 The platform, in order to ensure its safety and that of the user, may, at any time, request the following information:",
+                "paragraph2": "2.1.1. Registration data; The registration and compliance process on the platform may ask its users for basic information such as name, phone number, address, passwords, etc. ",
+                "paragraph3": "2.1.2. Personal documents; The platform may request, at any time, the documentation it deems necessary and indispensable for the conrmation of the customer's identity, without prejudice to the information and/or other documents that may have already been made available. The user understands and agrees that he/she must submit all requested documents such as proof of payment, proof of residence, bank statement, tax documents, etc.",
+                "paragraph4": "2.1.3. Data; In certain situations, the platform may receive information from the user from the electronic devices that are used by the user, such as location, IP address, etc.",
+                "paragraph5": "2.2. Technical information - in order to improve the performance of the services offered by the platform to the customer, some technical information such as domain, language, browsers and operating system used may be stored and used by the platform. ",
+                "paragraph6": "2.3. Analytical information - in order to improve the performance of the services offered by the platform to the customer, some analytical information such as the clicks that the user makes, the time he spends on a certain page, viewing preferences, etc. This information may be used by the platform primarily to correct errors and/or inconsistencies.",
+                "paragraph7": "2.4. Statistics – the platform may, at any time, collect, structure and transmit the statistical information of each user to third parties. This information includes the transaction history, the most protable asset type, the times of each entry, etc. "
+            },
+            "group3": {
+                "title": "3. USE OF INFORMATION ",
+                "paragraph1": "3.1. In cases where necessary and as long as they are guided by reasonableness, legality and good customs, the platform may disclose users' personal data to third parties, especially in cases where:",
+                "paragraph2": "3.1.1. Involve attempted fraud against the platform; ",
+                "paragraph3": "3.1.2. Suspected crimes against the platform are identied;",
+                "paragraph4": "3.1.3. Involve requests from the judiciary and/or public authorities;",
+                "paragraph5": "3.1.4. They involve criminal practices and/or fraudulent activities;",
+                "paragraph6": "3.2. The company obtains the customer's personal information only in the process of providing its own services. ",
+                "paragraph7": "3.3. The platform will not be responsible for the privacy policies of its partner companies, and the customer is solely responsible for carefully reading the terms and conditions that each one of them offers.",
+                "paragraph8": "3.4. The platform will always invest in information security and equipment that is capable of taking care of users' personal information. However, the user understands and agrees that this will not always be enough to prevent attacks that could damage the condentiality of this information. ",
+                "paragraph9": "3.5. The user may, at any time, request the platform to edit and/or correct their personal data that have errors and/or inaccuracies.",
+                "paragraph10": "3.6 The platform will store the personal data of its users for as long as it deems conveniente."
+            }
+        }
+}
