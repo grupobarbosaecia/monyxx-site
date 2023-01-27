@@ -1,6 +1,6 @@
 {
         "header": {
-            "register": "Registre-se",
+            "register": "Cadastrar",
             "login": "Entrar",
             "links": {
                 "1": "Início",
@@ -10,29 +10,15 @@
             }
         },
         "main": {
-            "content1": "A PLATAFORMA ",
-            "content2": "CERTA ",
-            "content3": "PARA INVESTIMENTOS ONLINE EM ",
-            "content4": "OPÇÕES BINÁRIAS",
-            "subContent": "SIMPLES,SEGURA E EFICIENTE",
-            "cards": {
-                "title": "NOSSOS DIFERENCIAIS",
-                "security": {
-                    "title": "SEGURANÇA",
-                    "content": "Sistema 100% criptografado, trazendo mais segurança em suas operações e mais proteção do seu capital"
-                },
-                "demo": {
-                    "title": "CONTA DEMO",
-                    "content": "Utilize sua conta de treinamento para  definir suas estratégias e testar suas operações com valor fictício e obtenha ótimos resultados em sua conta real. "
-                },
-                "depositsWithdraws": {
-                    "title": "DEPÓSITOS E RETIRADAS",
-                    "content": "A forma mais rápida e prática para efetuar depósitos e retiradas."
-                },
-                "tradingSpeed": {
-                    "title": "VELOCIDADE NA OPERAÇÃO",
-                    "content": "Plataforma 100% automatizada, que lhe traz uma experiência em operações binárias eficiente e rápida, com taxas sem delays"
-                }
+            "cta": "TESTAR CONTA DEMO GRÁTIS",
+            "firstSection": {
+                "heading": "Plataforma de negociações e investimentos de alta tecnologia",
+                "subtitle": "Faça suas negociações de uma forma diferente e moderna"
+            },
+            "secondSection": {
+                "heading": "Veja em tempo real nossos Resultados",
+                "firstCard": "Traders cadastrados",
+                "secondCard": "Lucros obtidos"
             }
         },
         "footer": {

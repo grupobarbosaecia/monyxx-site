@@ -1,7 +1,13 @@
 {
         "header": {
             "register": "Register",
-            "login": "Log in"
+            "login": "Log in",
+            "links": {
+                "1": "Home",
+                "2": "Results",
+                "3": "Benefits",
+                "4": "Testimony "
+            }
         },
         "main": {
             "content1": "THE ",
