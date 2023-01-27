@@ -33,12 +33,12 @@ const Carousel: React.FC = () => {
 		{
 			header: "Interface de negociação moderna e futurística",
 			subtitle: "Faça suas negociações de uma forma diferente e moderna",
-			imgsrc: INTERFACE1,
+			imgsrc: VELOCIDADE1,
 		},
 		{
 			header: "Interface de negociação moderna e futurística",
 			subtitle: "Faça suas negociações de uma forma diferente e moderna",
-			imgsrc: INTERFACE1,
+			imgsrc: TECNOLOGIA1,
 		},
 	]
 
@@ -46,13 +46,14 @@ const Carousel: React.FC = () => {
 		<Flex
 			w={"100%"}
 			gap={{
-				base: 10,
-				md: 15,
+				base: 14,
+				md: 6,
 				xl: 20,
 			}}
 			height={{
 				base: "800px",
-				md: "370px",
+				md: "300px",
+				lg: "370px",
 			}}
 			// px={["10", "16", "20", "20", "60"]}
 			px={{
