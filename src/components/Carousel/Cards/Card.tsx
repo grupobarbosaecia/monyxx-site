@@ -9,6 +9,7 @@ interface CardProps extends BoxProps {
 const Card: React.FC<CardProps> = (props: CardProps) => {
 	return (
 		<Flex
+			className={props.className}
 			flexDir={"column"}
 			alignItems={"center"}
 			justifyContent={"center"}
@@ -45,10 +46,12 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
 			}}
 		>
 			<Heading
+				className="cardHeading"
 				fontSize={{
 					sm: 16,
 					md: 16,
 					lg: 18,
+			
 				}}
 				w={"95%"}
 				color={"white.0"}
@@ -57,6 +60,7 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
 				{props.header}
 			</Heading>
 			<Text
+				className="cardSubtitle"
 				fontSize={13}
 				w={"85%"}
 				color={"white.0"}

@@ -74,7 +74,7 @@ export const monyxxTheme = extendTheme({
         },
         monyxxColors: {
             100: "conic-gradient(from 149.15deg at 20.6% 100%, #0F1667 0deg, #1423D7 180deg, #0F1667 360deg)",
-            200: "linear-gradient(180deg, #3E3E41 0%, #1F1F1F 100%)",
+            200: "#43415C",
             300: "linear-gradient(180deg, #1F468C 0%, #32A5D3 100%)",
             400: "linear-gradient(210.96deg, #1C3680 0.01%, #266BA8 33.85%, #35B2DD 104.81%);",
             600: "linear-gradient(210.96deg, #161816 0.01%, rgba(48, 47, 51, 0.78) 42.05%, rgba(99, 99, 105, 0.51) 104.81%);",
@@ -82,7 +82,7 @@ export const monyxxTheme = extendTheme({
                 black: "linear-gradient(210.96deg, #161816 0.01%, #2A293C 42.05%, #525171 104.81%)",
                 "black-hover": "#2A293C",
                 blue: "linear-gradient(180deg, #4073F6 0%, #1B28B0 100%);",
-                green: "linear-gradient(136.67deg, #4DFB91 8.34%, #00D955 95.26%);",
+                green: "linear-gradient(180deg, #4DFB91 0%, #04AA45 100%);",
             }
             
         },

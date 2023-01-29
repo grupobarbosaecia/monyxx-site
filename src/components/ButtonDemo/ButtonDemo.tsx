@@ -21,8 +21,12 @@ const ButtonDemo = chakra("button", {
 			base: "190px",
 			sm: "210px",
 		},
+		zIndex: "2",
 		fontFamily: "Poppins",
-		boxShadow: "0px 5px 15px rgba(70, 165, 98, 0.46);",
+		boxShadow: "0px 5px 15px rgba(70, 165, 98, 0.76);",
+		_active: {
+			transform: "translateY(1px)"
+		}
 	},
 })
 export default ButtonDemo

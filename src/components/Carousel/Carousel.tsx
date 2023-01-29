@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react"
+import React from "react"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -12,35 +12,26 @@ import "./carousel.css"
 import { Pagination } from "swiper"
 import { Flex, useBreakpointValue } from "@chakra-ui/react"
 import Card from "./Cards/Card"
-import TECNOLOGIA1 from "../../assets/TECNOLOGIA1.png"
-import VELOCIDADE1 from "../../assets/VELOCIDADE1.png"
-import INTERFACE1 from "../../assets/INTERFACE1.png"
 
-const Carousel: React.FC = () => {
-	const isTablet = useBreakpointValue({
-		base: 30,
-		md: 30,
-		lg: 40,
-		xl: 60,
+
+interface ICardCarousel {
+	header: string,
+	subtitle: string,
+	imgsrc: string
+}
+
+
+const Carousel: React.FC<{cards: ICardCarousel[]}> = ({cards}) => {
+	const isMobile = useBreakpointValue({
+		base: 50,
+		sm: 50,
 	})
 
-	const cards = [
-		{
-			header: "Interface de negociação moderna e futurística",
-			subtitle: "Faça suas negociações de uma forma diferente e moderna",
-			imgsrc: INTERFACE1,
-		},
-		{
-			header: "Interface de negociação moderna e futurística",
-			subtitle: "Faça suas negociações de uma forma diferente e moderna",
-			imgsrc: VELOCIDADE1,
-		},
-		{
-			header: "Interface de negociação moderna e futurística",
-			subtitle: "Faça suas negociações de uma forma diferente e moderna",
-			imgsrc: TECNOLOGIA1,
-		},
-	]
+	const isCarousel = useBreakpointValue({
+		base: true,
+		md: false,
+	})
+
 
 	return (
 		<Flex
@@ -48,25 +39,27 @@ const Carousel: React.FC = () => {
 			gap={{
 				base: 14,
 				md: 6,
-				xl: 20,
+				xl: 10,
+				"2xl": 15
 			}}
 			height={{
-				base: "800px",
+				base: "680px",
 				md: "300px",
 				lg: "370px",
 			}}
-			// px={["10", "16", "20", "20", "60"]}
 			px={{
-				base: 10,
-				sm: 16,
+				base: 0,
+				sm: 0,
 				md: 20,
 				lg: 36,
+				xl: 56,
 				"2xl": 80,
 			}}
 		>
-			{isTablet ? (
-				cards.map((card) => (
+			{!isCarousel ? (
+				cards.map((card, index) => (
 					<Card
+						key={index}
 						header={card.header}
 						subtitle={card.subtitle}
 						imgsrc={card.imgsrc}
@@ -74,22 +67,25 @@ const Carousel: React.FC = () => {
 				))
 			) : (
 				<Swiper
+					grabCursor
 					pagination={{
 						dynamicBullets: true,
 					}}
-					slidesPerView={3}
-					spaceBetween={isTablet}
+					slidesPerView={"auto"}
+					spaceBetween={isMobile}
+					centeredSlides={true}
 					modules={[Pagination]}
-					draggable={false}
+					draggable={true}
 					className="mySwiper"
-					// centeredSlides
 				>
-					{cards.map((card) => (
-						<SwiperSlide>
+					{cards.map((card, index) => (
+						<SwiperSlide key={index}>
 							<Card
+								
 								header={card.header}
 								subtitle={card.subtitle}
 								imgsrc={card.imgsrc}
+								className={"cardCarousel"}
 							/>
 						</SwiperSlide>
 					))}

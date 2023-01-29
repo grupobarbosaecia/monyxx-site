@@ -280,7 +280,7 @@ const Header: React.FC = () => {
 											fontSize={"14px"}
 											_active={{
 												background:
-													"linear-gradient(136.67deg, #00D955 8.34%, #4DFB91 95.26%);",
+													"linear-gradient(180deg, #04AA45 0%, #4DFB91 100%); ",
 											}}
 										>
 											{t("register")}
@@ -304,8 +304,10 @@ const Header: React.FC = () => {
 							_active={{
 								background:
 									"linear-gradient(180deg, #1B28B0 0%, #4073F6 100%);",
+								boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.25)"
 							}}
 							fontSize={"14px"}
+							boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25);"}
 						>
 							{t("login")}
 						</Button>
@@ -319,8 +321,10 @@ const Header: React.FC = () => {
 							fontSize={"14px"}
 							_active={{
 								background:
-									"linear-gradient(136.67deg, #00D955 8.34%, #4DFB91 95.26%);",
+									"linear-gradient(180deg, #04AA45 0%, #4DFB91 100%); ",
+									boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.25)"
 							}}
+							boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25);"}
 						>
 							{t("register")}
 						</Button>
