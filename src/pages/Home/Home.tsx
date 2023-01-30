@@ -566,7 +566,10 @@ const Home: React.FC = () => {
                 position={"relative"}
                 px={["5", "16", "20", "36", "60"]}
                 alignItems={"center"}
-                mt={"-400px !important"}
+                mt={{
+                    base: "-400px !important",
+                    lg: "-100px !important"
+                }}
                 flexDir={{
                     base: "column-reverse",
                     lg: "row",
@@ -577,7 +580,7 @@ const Home: React.FC = () => {
                     position={"absolute"}
                     right={{
                         base: "50%",
-                        lg: "-40%",
+                        lg: "-60%",
                     }}
                     height={{
                         base: "600px",
