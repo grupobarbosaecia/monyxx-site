@@ -13,18 +13,20 @@ import { Pagination } from "swiper"
 import { Flex, useBreakpointValue } from "@chakra-ui/react"
 import Card from "./Cards/Card"
 
-
-interface ICardCarousel{
-	header: string,
-	subtitle: string,
+interface ICardCarousel {
+	header: string
+	subtitle: string
 	imgsrc: string
 }
-interface ICarousel extends JSX.Element{
-	
+interface ICarousel extends JSX.Element {
+	cards: ICardCarousel[]
+	transform?: string
 }
 
-
-const Carousel: React.FC<{cards: ICardCarousel[], transform?: string}> = ({cards, transform}) => {
+const Carousel: React.FC<{ cards: ICardCarousel[]; transform?: string }> = ({
+	cards,
+	transform,
+}) => {
 	const isMobile = useBreakpointValue({
 		base: 50,
 		sm: 50,
@@ -35,7 +37,6 @@ const Carousel: React.FC<{cards: ICardCarousel[], transform?: string}> = ({cards
 		md: false,
 	})
 
-
 	return (
 		<Flex
 			w={"100%"}
@@ -43,7 +44,7 @@ const Carousel: React.FC<{cards: ICardCarousel[], transform?: string}> = ({cards
 				base: 14,
 				md: 6,
 				xl: 10,
-				"2xl": 15
+				"2xl": 15,
 			}}
 			height={{
 				base: "680px",
@@ -85,7 +86,6 @@ const Carousel: React.FC<{cards: ICardCarousel[], transform?: string}> = ({cards
 					{cards.map((card, index) => (
 						<SwiperSlide key={index}>
 							<Card
-								
 								header={card.header}
 								subtitle={card.subtitle}
 								imgsrc={card.imgsrc}

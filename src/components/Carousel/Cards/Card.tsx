@@ -1,6 +1,6 @@
-import { Flex, BoxProps, Heading, Text } from "@chakra-ui/react"
+import { Flex, FlexProps, Heading, Text } from "@chakra-ui/react"
 
-interface CardProps extends BoxProps {
+interface CardProps extends FlexProps {
 	header: string
 	subtitle: String
 	imgsrc: string
@@ -22,7 +22,6 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
 			rounded={"12px"}
 			position={"relative"}
 			boxShadow={"-29px 60px 90px rgba(22, 24, 22, 0.45)"}
-			backdropFilter={"blur(12.5px)"}
 			_after={{
 				content: "''",
 				background: "url(" + props.imgsrc + ")",
@@ -51,7 +50,6 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
 					sm: 16,
 					md: 16,
 					lg: 18,
-			
 				}}
 				w={"95%"}
 				color={"white.0"}

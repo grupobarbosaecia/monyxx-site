@@ -75,6 +75,7 @@ const Header: React.FC = () => {
 						_hover={{
 							color: "white.200",
 						}}
+						href={"#"}
 					>
 						{t("links.1")}
 					</Link>
@@ -85,6 +86,7 @@ const Header: React.FC = () => {
 						_hover={{
 							color: "white.200",
 						}}
+						href={"#SecondSection"}
 					>
 						{t("links.2")}
 					</Link>
@@ -95,6 +97,7 @@ const Header: React.FC = () => {
 						_hover={{
 							color: "white.200",
 						}}
+						href={"#FourthSection"}
 					>
 						{t("links.3")}
 					</Link>
@@ -105,6 +108,7 @@ const Header: React.FC = () => {
 						_hover={{
 							color: "white.200",
 						}}
+						href={"#LastSection"}
 					>
 						{t("links.4")}
 					</Link>
@@ -183,6 +187,7 @@ const Header: React.FC = () => {
 										alignItems={"flex-start"}
 									>
 										<Link
+											href={"#"}
 											w={"100%"}
 											borderRadius={5}
 											p={"2"}
@@ -193,10 +198,12 @@ const Header: React.FC = () => {
 												background:
 													"monyxxColors.degrade.black-hover",
 											}}
+											onClick={() => onClose()}
 										>
 											{t("links.1")}
 										</Link>
 										<Link
+											href={"#SecondSection"}
 											w={"100%"}
 											borderRadius={5}
 											p={"2"}
@@ -207,10 +214,12 @@ const Header: React.FC = () => {
 												background:
 													"monyxxColors.degrade.black-hover",
 											}}
+											onClick={() => onClose()}
 										>
 											{t("links.2")}
 										</Link>
 										<Link
+											href={"#FourthSection"}
 											w={"100%"}
 											borderRadius={5}
 											p={"2"}
@@ -221,10 +230,12 @@ const Header: React.FC = () => {
 												background:
 													"monyxxColors.degrade.black-hover",
 											}}
+											onClick={() => onClose()}
 										>
 											{t("links.3")}
 										</Link>
 										<Link
+											href={"#LastSection"}
 											w={"100%"}
 											borderRadius={5}
 											p={"2"}
@@ -235,6 +246,7 @@ const Header: React.FC = () => {
 												background:
 													"monyxxColors.degrade.black-hover",
 											}}
+											onClick={() => onClose()}
 										>
 											{t("links.4")}
 										</Link>
@@ -304,7 +316,7 @@ const Header: React.FC = () => {
 							_active={{
 								background:
 									"linear-gradient(180deg, #1B28B0 0%, #4073F6 100%);",
-								boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.25)"
+								boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.25)",
 							}}
 							fontSize={"14px"}
 							boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25);"}
@@ -322,7 +334,7 @@ const Header: React.FC = () => {
 							_active={{
 								background:
 									"linear-gradient(180deg, #04AA45 0%, #4DFB91 100%); ",
-									boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.25)"
+								boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.25)",
 							}}
 							boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25);"}
 						>
