@@ -12,8 +12,6 @@ import {
 import Header from "../../components/Header/header"
 import notebook from "../../assets/main-notebook.png"
 import ButtonDemo from "../../components/ButtonDemo/ButtonDemo"
-import { useTranslation } from "react-i18next"
-import { largeArrowIcon } from "../../assets/icons"
 import clipBg from "../../assets/icons/clipBg.svg"
 import clipBgDesktop from "../../assets/icons/clipBgDesktop.svg"
 import Carousel from "../../components/Carousel/Carousel"
@@ -28,17 +26,14 @@ import RightCloud from "../../assets/RightCloud.png"
 import LeftCloud from "../../assets/LeftCloud.png"
 import Footer from "../../components/Footer/Footer"
 import CarouselComments from "../../components/CarouselComments/CarouselComments"
-
+import { useTranslation } from "react-i18next"
+import { largeArrowIcon } from "../../assets/icons"
+import { ArrowUpIcon } from "@chakra-ui/icons"
 const Home: React.FC = () => {
 	const { t } = useTranslation("main")
 	const isTablet = useBreakpointValue({
 		base: false,
 		md: true,
-	})
-
-	const lastSection = useBreakpointValue({
-		base: true,
-		lg: false,
 	})
 
 	return (
@@ -269,7 +264,7 @@ const Home: React.FC = () => {
 					fontWeight={600}
 					textAlign={"center"}
 				>
-					Conheça nossas tecnologias
+					{t("thirdSection.header")}
 				</Heading>
 				<Carousel
 					cards={[
@@ -607,16 +602,16 @@ const Home: React.FC = () => {
 					position={"absolute"}
 					left={{
 						base: "-33%",
-						xl: "-45%",
+						xl: "-35%",
 					}}
 					minW={{
 						base: "400px",
 						md: "auto",
 					}}
 					top={{
-						base: "1700px",
-						lg: "-20px",
-						xl: "-50px",
+						base: "1600px",
+						md: "1200px",
+						lg: "480px",
 					}}
 					w={{
 						base: "700px",
@@ -745,7 +740,7 @@ const Home: React.FC = () => {
 					}}
 					textAlign={{
 						base: "center",
-						md: "start",
+						md: "center",
 					}}
 				>
 					{t("lastSection.header")}
@@ -774,6 +769,23 @@ const Home: React.FC = () => {
 				/>
 			</Flex>
 			<Footer />
+			{/* Up to Home */}
+			<Flex
+				position={"fixed"}
+				bottom={"20px"}
+				right={"30px"}
+				bg={"monyxxColors.degrade.black"}
+				w={"50px"}
+				h={"50px"}
+				zIndex={999}
+				borderRadius={"50%"}
+				justifyContent={"center"}
+				alignItems={"center"}
+				boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25)"}
+				onClick={() => window.scrollTo(0, 0)}
+			>
+				<ArrowUpIcon boxSize={6} />
+			</Flex>
 		</Stack>
 	)
 }

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react"
+import React from "react"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -23,12 +23,15 @@ const CarouselComments: React.FC<{ users: user[] }> = ({ users }) => {
 		<>
 			{isMobile ? (
 				<Swiper
+					key={"ccd"}
+					initialSlide={1}
 					slidesPerView={1}
 					spaceBetween={30}
 					pagination={{
 						clickable: true,
 					}}
 					navigation={true}
+					draggable={false}
 					modules={[Pagination, Navigation]}
 					className="swiperComments"
 				>
@@ -40,6 +43,8 @@ const CarouselComments: React.FC<{ users: user[] }> = ({ users }) => {
 				</Swiper>
 			) : (
 				<Swiper
+					key={"ccm"}
+					initialSlide={1}
 					grabCursor
 					pagination={{
 						dynamicBullets: true,

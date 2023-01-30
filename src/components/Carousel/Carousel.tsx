@@ -72,6 +72,8 @@ const Carousel: React.FC<{ cards: ICardCarousel[]; transform?: string }> = ({
 				))
 			) : (
 				<Swiper
+					key={"co1"}
+					initialSlide={1}
 					grabCursor
 					pagination={{
 						dynamicBullets: true,

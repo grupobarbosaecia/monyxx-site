@@ -1,45 +1,92 @@
 {
-        "header": {
-            "register": "Regístrese",
-            "login": "Acceso"
+    "header": {
+        "register": "Cadastrar",
+        "login": "Entrar",
+        "links": {
+            "1": "Inicio",
+            "2": "Resultados",
+            "3": "Beneficio",
+            "4": "Testimonios"
+        }
+    },
+    "main": {
+        "cta": "PROBAR CUENTA DEMO GRATUITA",
+        "firstSection": {
+            "heading": "Plataforma de negociación e inversión de alta tecnología",
+            "subtitle": "Negocie de forma diferente y moderna"
         },
-        "main": {
-            "content1": "UNA PLATAFORMA ",
-            "content2": "CIERTO ",
-            "content3": "PARA INVERSIONES ONLINE EN ",
-            "content4": "OPCIONES BINARIAS",
-            "subContent": "SENCILLO, SEGURO Y EFICIENTE",
-            "cards": {
-                "title": "NUESTROS DIFERENCIALES",
-                "security": {
-                    "title": "SEGURIDAD",
-                    "content": "Sistema 100% encriptado, rastreando más seguridad en tus operaciones y más protección de tu capital"
-                },
-                "demo": {
-                    "title": "CUENTA DEMO",
-                    "content": "Use su cuenta de entrenamiento para definir sus estrategias y pruebe sus operaciones con valor ficticio y obtenga excelentes resultados en su cuenta real."
-                },
-                "depositsWithdraws": {
-                    "title": "DEPÓSITOS Y RETIROS",
-                    "content": "La forma más rápida y práctica de realizar depósitos y retiros."
-                },
-                "tradingSpeed": {
-                    "title": "VELOCIDAD DE OPERACIÓN",
-                    "content": "Plataforma 100% automatizada, que le brinda una experiencia de comercio binario eficiente y rápida, con tarifas sin demoras"
-                }
+        "secondSection": {
+            "heading": "Vea nuestros resultados en tiempo real",
+            "firstCard": "Operadores registrados",
+            "secondCard": "Beneficios obtenidos"
+        },
+        "thirdSection": {
+            "header": "Conozca nuestras tecnologías",
+            "firstCard": {
+                "header": "Interfaz de negociación moderna y futurista",
+                "subtitle": "Negocie de forma diferente y moderna"
+            },
+            "secondCard": {
+                "header": "Operaciones rápidas con señales integradas",
+                "subtitle": "Señales más precisas e innovadoras con un 87% de exactitud"
+            },
+            "thirdCard": {
+                "header": "La tecnología más avanzada del mercado",
+                "subtitle": "Tecnología moderna y rapidez increíble en sus negociaciones"
             }
         },
-        "footer": {
-            "followUs": "SÍGANOS",
-            "moreInfo": "Mas informaciones",
-            "keepUpToDate": "Mantenerse actualizado",
-            "placeholderEmail": "Ingrese su mejor correo electrónico",
-            "signUp": "Suscribirse",
-            "allRights": "Todos los derechos reservados ©",
-            "TermsOfUse": "Terminos de uso",
-            "PrivacyPolicy": "Política de privacidad",
-            "affiliate": "Ser un Afiliado"
+        "fourthSection": {
+            "header": "Ventajas de realizar sus transacciones e inversiones en Monyxx",
+            "subtitle": "Le sorprenderá",
+            "firstCard": {
+                "header": "Cuenta con depósito mínimo de R$ 50,00",
+                "subtitle": "Comience a operar con inversiones mínimas a partir de 50,00 BRL con depósito en instantes."
+            },
+            "secondCard": {
+                "header": "Regístrate y consigue una DEMO ilimitada",
+                "subtitle": "Entrene sus negociaciones sin límites y gane la confianza que necesita para obtener beneficios reales."
+            },
+            "thirdCard": {
+                "header": "Asistencia 24 horas, 7 días a la semana",
+                "subtitle": "Soporte multilingüe inmediato para ayudarte con tus dudas y problemas para que tengas la mejor experiencia como trader."
+            },
+            "fourthCard": {
+                "header": "Gráficos con tecnología avanzada",
+                "subtitle": "Realice sus operaciones en instantes sin demora y disfrute de la mejor y más avanzada tecnología del mercado."
+            }
         },
+        "fifthSection": {
+            "header": "Empiece a operar fácilmente",
+            "firstCard": {
+                "header": "Inscríbete",
+                "subtitle": "Abra su cuenta gratuita en sólo 2 minutos en la plataforma Monyxx."
+            },
+            "secondCard": {
+                "header": "Practicar la negociación",
+                "subtitle": "Realiza operaciones en tu cuenta DEMO y entrena tus habilidades como Trader."
+            },
+            "thirdCard": {
+                "header": "Depósito y comercio",
+                "subtitle": "Deposite, invierta y obtenga beneficios con operaciones rápidas y seguras."
+            }
+        },
+        "sixthSection": {
+            "header": "Invierta desde cualquier lugar",
+            "subtitle": "Puede operar en cualquier momento sin necesidad de descargar aplicaciones, realice sus operaciones directamente desde su navegador favorito.",
+            "header2": "Vea lo que dicen los demás"
+        },
+        "lastSection": {
+            "header": "Vea lo que dicen los demás"
+        }
+
+    },
+    "footer": {
+        "header": "Advertencia de riesgo:",
+        "paragraph1": "Operar en los mercados financieros conlleva riesgos. Los contratos por diferencias ('CFD') son productos financieros complejos que se negocian con margen. Operar con CFD conlleva un alto nivel de riesgo, ya que el apalancamiento puede jugar tanto a su favor como en su contra. En consecuencia, los CFD pueden no ser adecuados para todos los inversores, ya que podría perder todo el capital invertido. No debe arriesgar más de lo que esté dispuesto a perder. Antes de decidirse a operar, debe asegurarse de que comprende los riesgos que implica y tener en cuenta sus objetivos de inversión y su nivel de experiencia.",
+        "paragraph2": "Todos los derechos de copia de los materiales de este sitio están protegidos y pertenecen a 'MONYXX'. Cualquier uso de los materiales de este sitio debe ser coordinado con un representante oficial de 'MONYXX' y contar con las respectivas instrucciones para este recurso. Las empresas de terceros pertenecientes a la categoría 'Corredor en línea' o 'Comercio en línea' no tienen derecho a utilizar los materiales de este sitio ni ninguna otra descripción de 'MONYXX', ni siquiera de forma distorsionada. En caso de infracción de esta norma, dichas empresas están sujetas a responsabilidad en virtud de las leyes de protección de los derechos de autor.",
+        "affiliate": "Afiliarse",
+        "copyright": "Copyright © 2022 Monyxx - Condiciones de uso | Política de privacidad"
+    },
         "terms": {
             "title": "Términos y condiciones",
             "paragraph1": "Monyxx presta sus servicios exclusivamente en los territorios en los que tiene licencia. Monyxx no está autorizada por la Comisión de Valores Mobiliarios (CVM) para ofrecer directamente servicios de distribución de valores a inversores residentes, domiciliados o constituidos en la República Federativa de Brasil. Nada en este sitio web debe entenderse como una oferta directa de servicios dirigida a estos inversores.",

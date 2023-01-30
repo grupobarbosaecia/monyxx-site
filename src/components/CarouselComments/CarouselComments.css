@@ -26,6 +26,11 @@
 	margin-right: auto;
 }
 
+.swiperComments .swiper-pagination-bullet {
+	width: 15px;
+	height: 15px;
+}
+
 .swiperComments .swiper-button-next {
 	color: #fff;
 	right: 90px !important;
@@ -55,6 +60,10 @@
 }
 
 .swiper.comments .swiper-pagination-bullet-active {
+	background-color: #fff !important;
+}
+
+.swiperComments .swiper-pagination-bullet-active {
 	background-color: #fff !important;
 }
 

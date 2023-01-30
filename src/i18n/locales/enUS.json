@@ -10,41 +10,82 @@
             }
         },
         "main": {
-            "content1": "THE ",
-            "content2": "RIGHT ",
-            "content3": "PLATFORM FOR ONLINE INVESTMENT IN ",
-            "content4": "BINARY OPTIONS",
-            "subContent": "SIMPLE, SAFE AND EFFICIENT",
-            "cards": {
-                "title": "OUR DIFFERENTIALS",
-                "security": {
-                    "title": "SAFETY",
-                    "content": "100% encrypted system, bringing more security to your operations and more protection of your capital"
+            "cta": "TEST FREE DEMO ACCOUNT",
+            "firstSection": {
+                "heading": "High-tech trading and investment platform",
+                "subtitle": "Do your negotiations in a different and modern way"
+            },
+            "secondSection": {
+                "heading": "See in real time our Results",
+                "firstCard": "Registered Traders",
+                "secondCard": "Profits obtained"
+            },
+            "thirdSection": {
+                "header": "Get to know our technologies",
+                "firstCard": {
+                    "header": "Modern and futuristic trading interface",
+                    "subtitle": "Do your negotiations in a different and modern way"
                 },
-                "demo": {
-                    "title": "DEMO ACCOUNT",
-                    "content": "Use your training account to define your strategies and test your trades with fictitious value and get great results in a real account obtenha"
+                "secondCard": {
+                    "header": "Fast operations with integrated signals",
+                    "subtitle": "More precise and innovative signals with 87% accuracy"
                 },
-                "depositsWithdraws": {
-                    "title": "DEPOSITS AND WITHDRAWALS",
-                    "content": "The fastest and most practical way to make deposits and withdrawals."
-                },
-                "tradingSpeed": {
-                    "title": "OPERATION SPEED",
-                    "content": "100% Automated platform, which brings you an efficient and fast binary trading experience, with fees without delays"
+                "thirdCard": {
+                    "header": "Most advanced technology on the market",
+                    "subtitle": "Modern technology and incredible speed in your negotiations"
                 }
+            },
+            "fourthSection": {
+                "header": "Benefits of doing your transactions and investments at Monyxx",
+                "subtitle": "You will be surprised",
+                "firstCard": {
+                    "header": "Account with a R$50.00 minimum deposit",
+                    "subtitle": "Start trading with minimum investments starting at R$50.00 with a deposit in moments."
+                },
+                "secondCard": {
+                    "header": "Sign up and get one with unlimited DEMO",
+                    "subtitle": "Train your negotiations without limits and gain the confidence you need to make real profits."
+                },
+                "thirdCard": {
+                    "header": "Support 24 hours a day, seven days a week",
+                    "subtitle": "Immediate multi-language support to help you with your questions and problems so that you have the best experience as a trader."
+                },
+                "fourthCard": {
+                    "header": "Advanced Technology Graphics",
+                    "subtitle": "Make your trades in moments with no delay and enjoy the best and most advanced technology on the market."
+                }
+            },
+            "fifthSection": {
+                "header": "Start trading the easy way",
+                "firstCard": {
+                    "header": "Register",
+                    "subtitle": "Open your free account in just 2 minutes on the Monyxx platform."
+                },
+                "secondCard": {
+                    "header": "Practice Negotiation",
+                    "subtitle": "Make trades on your DEMO account and train your skills as a Trader."
+                },
+                "thirdCard": {
+                    "header": "Deposit and trade",
+                    "subtitle": "Deposit, invest, and make profits with fast and secure trading."
+                }
+            },
+            "sixthSection": {
+                "header": "Make investments from anywhere",
+                "subtitle": "You can trade at any time without having to download applications, make your trades directly from your favorite browser.",
+                "header2": "See what other people are saying"
+            },
+            "lastSection": {
+                "header": "See what other people are saying"
             }
+    
         },
         "footer": {
-            "followUs": "Follow us",
-            "moreInfo": "More information",
-            "keepUpToDate": "Keep yourself updated",
-            "placeholderEmail": "Enter your best Email",
-            "signUp": "Sign up",
-            "allRights": "All Rights Reserved ©",
-            "TermsOfUse": "Terms Of Use",
-            "PrivacyPolicy": "Privacy Policy",
-            "affiliate": "Be an Affiliate"
+            "header": "Risk Warning:",
+            "paragraph1": "Trading on financial markets carries risks. Contracts for difference ('CFDs') are complex financial products that are traded on margin. Trading CFDs carries a high level of risk, as leverage can work to your advantage as well as your disadvantage. As a result, CFDs may not be suitable for all investors because you could lose all your invested capital. You should not risk more than you are prepared to lose. Before you decide to trade, you need to ensure that you understand the risks involved and take into account your investment objectives and level of experience.",
+            "paragraph2": "All rights to copy materials from this site are protected and belong to 'MONYXX'. Any use of materials on this site must be coordinated with an official representative of 'MONYXX' and must be indicated to that effect. Any third-party companies belonging to the category 'Online Brokerage' or 'Online Trading' do not have the rights to use materials on this site, as well as any other 'MONYXX' descriptions, even falsified ones. In case of infringement of this rule, such companies are subject to liability under copyright protection laws.",
+            "affiliate": "Become an affiliate",
+            "copyright": "Copyright © 2022 Monyxx - Terms of Use | Privacy Policy"
         },
         "terms": {
             "title": "Terms of conditions",
