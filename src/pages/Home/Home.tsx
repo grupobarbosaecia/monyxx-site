@@ -23,12 +23,21 @@ import INTERFACE1 from "../../assets/INTERFACE1.png";
 import CADASTRESE1 from "../../assets/CADASTRESE1.png";
 import DEPOSITE1 from "../../assets/DEPOSITE1.png";
 import NEGOCIACOES1 from "../../assets/NEGOCIACOES1.png";
+import Phone from "../../assets/Phone.png";
+import RightCloud from "../../assets/RightCloud.png";
+import LeftCloud from "../../assets/LeftCloud.png";
+import Footer from "../../components/Footer/Footer";
 
 const Home: React.FC = () => {
     const { t } = useTranslation("main");
     const isTablet = useBreakpointValue({
         base: false,
         md: true,
+    });
+
+    const lastSection = useBreakpointValue({
+        base: true,
+        lg: false,
     });
 
     return (
@@ -39,8 +48,10 @@ const Home: React.FC = () => {
             // px={["10", "16", "20", "36", "60"]}
             py={"7"}
             gap={"20"}
+            pb={"0"}
         >
             <Header />
+            {/* First Section */}
             <Flex
                 px={["10", "16", "20", "36", "60"]}
                 alignItems={"center"}
@@ -103,7 +114,7 @@ const Home: React.FC = () => {
                     // }}
                 />
             </Flex>
-
+            {/* Second Section */}
             <Flex
                 px={["10", "16", "20", "36", "60"]}
                 w={"100%"}
@@ -217,7 +228,7 @@ const Home: React.FC = () => {
                     </Flex>
                 </Flex>
             </Flex>
-
+            {/* Third Section */}
             <Flex
                 mt={"-150px !important"}
                 alignItems={"center"}
@@ -291,11 +302,12 @@ const Home: React.FC = () => {
                     </ButtonDemo>
                 )}
             </Flex>
-
+            {/* Fourth Section */}
             <Flex
+                // backgroundImage={candle}
                 mt={{
                     base: "-150px !important",
-                    md: "100px !important",
+                    md: "0 !important",
                 }}
                 px={["5", "16", "20", "36", "60"]}
                 gap={10}
@@ -304,17 +316,19 @@ const Home: React.FC = () => {
                     base: "column",
                     md: "row",
                 }}
+                backgroundPosition={"center"}
+                backgroundSize={"cover"}
             >
                 <Flex
                     w={{
                         base: "100%",
                         md: "70%",
-                        "xl": "75%"
+                        xl: "75%",
                     }}
                     gap={{
                         base: 6,
                         sm: 2,
-                        xl: 4
+                        xl: 4,
                     }}
                     textAlign={{
                         base: "left",
@@ -361,16 +375,21 @@ const Home: React.FC = () => {
                         borderRadius={12}
                         boxShadow={"-29px 60px 90px rgba(3, 17, 27, 0.5)"}
                     >
-                        <Heading fontSize={{
-                            base: 15,
-                            sm: 17
-                        }} fontWeight={600}>
+                        <Heading
+                            fontSize={{
+                                base: 15,
+                                sm: 17,
+                            }}
+                            fontWeight={600}
+                        >
                             {t("fourthSection.firstCard.header")}
                         </Heading>
-                        <Text fontSize={{
-                            base: 12,
-                            sm: 14
-                        }}>
+                        <Text
+                            fontSize={{
+                                base: 12,
+                                sm: 14,
+                            }}
+                        >
                             {t("fourthSection.firstCard.subtitle")}
                         </Text>
                     </Stack>
@@ -381,16 +400,21 @@ const Home: React.FC = () => {
                         borderRadius={12}
                         boxShadow={"-29px 60px 90px rgba(3, 17, 27, 0.5)"}
                     >
-                        <Heading fontSize={{
-                            base: 15,
-                            sm: 17
-                        }} fontWeight={600}>
+                        <Heading
+                            fontSize={{
+                                base: 15,
+                                sm: 17,
+                            }}
+                            fontWeight={600}
+                        >
                             {t("fourthSection.secondCard.header")}
                         </Heading>
-                        <Text fontSize={{
-                            base: 12,
-                            sm: 14
-                        }}>
+                        <Text
+                            fontSize={{
+                                base: 12,
+                                sm: 14,
+                            }}
+                        >
                             {t("fourthSection.secondCard.subtitle")}
                         </Text>
                     </Stack>
@@ -401,16 +425,21 @@ const Home: React.FC = () => {
                         borderRadius={12}
                         boxShadow={"-29px 60px 90px rgba(3, 17, 27, 0.5)"}
                     >
-                        <Heading fontSize={{
-                            base: 15,
-                            sm: 17
-                        }} fontWeight={600}>
+                        <Heading
+                            fontSize={{
+                                base: 15,
+                                sm: 17,
+                            }}
+                            fontWeight={600}
+                        >
                             {t("fourthSection.thirdCard.header")}
                         </Heading>
-                        <Text fontSize={{
-                            base: 12,
-                            sm: 14
-                        }}>
+                        <Text
+                            fontSize={{
+                                base: 12,
+                                sm: 14,
+                            }}
+                        >
                             {t("fourthSection.thirdCard.subtitle")}
                         </Text>
                     </Stack>
@@ -421,16 +450,21 @@ const Home: React.FC = () => {
                         borderRadius={12}
                         boxShadow={"-29px 60px 90px rgba(3, 17, 27, 0.5)"}
                     >
-                        <Heading fontSize={{
-                            base: 15,
-                            sm: 17
-                        }} fontWeight={600}>
+                        <Heading
+                            fontSize={{
+                                base: 15,
+                                sm: 17,
+                            }}
+                            fontWeight={600}
+                        >
                             {t("fourthSection.fourthCard.header")}
                         </Heading>
-                        <Text fontSize={{
-                            base: 12,
-                            sm: 14
-                        }}>
+                        <Text
+                            fontSize={{
+                                base: 12,
+                                sm: 14,
+                            }}
+                        >
                             {t("fourthSection.fourthCard.subtitle")}
                         </Text>
                     </Stack>
@@ -444,7 +478,7 @@ const Home: React.FC = () => {
                     {t("cta")}
                 </ButtonDemo>
             </Flex>
-
+            {/* fifth Section */}
             <Flex
                 mt={"-150px !important"}
                 alignItems={"center"}
@@ -452,6 +486,8 @@ const Home: React.FC = () => {
                 flexDirection={"column"}
                 width={"100vw"}
                 h={"400px"}
+                zIndex={3}
+                transform={"rotateY(180deg)"}
                 bg={{
                     base: "url(" + clipBg + ")",
                     sm: "url(" + clipBgDesktop + ")",
@@ -467,6 +503,7 @@ const Home: React.FC = () => {
                 }}
             >
                 <Heading
+                    transform={"rotateY(180deg)"}
                     mb={{
                         base: "-30px",
                         sm: "-50px",
@@ -486,9 +523,10 @@ const Home: React.FC = () => {
                     fontWeight={600}
                     textAlign={"center"}
                 >
-                   {t("fifthSection.header")}
+                    {t("fifthSection.header")}
                 </Heading>
                 <Carousel
+                    transform={"rotateY(180deg)"}
                     cards={[
                         {
                             header: t("fifthSection.firstCard.header"),
@@ -513,11 +551,159 @@ const Home: React.FC = () => {
                             base: "-40px",
                             md: 6,
                         }}
+                        transform={"rotateY(180deg)"}
+                        _active={{
+                            transform: " rotateY(180deg) translateY(1px)",
+                        }}
                     >
                         {t("cta")}
                     </ButtonDemo>
                 )}
             </Flex>
+            {/* Sixth Section */}
+            <Flex
+                h={"auto"}
+                position={"relative"}
+                px={["5", "16", "20", "36", "60"]}
+                alignItems={"center"}
+                mt={"-400px !important"}
+                flexDir={{
+                    base: "column-reverse",
+                    lg: "row",
+                }}
+            >
+                <Image
+                    src={RightCloud}
+                    position={"absolute"}
+                    right={{
+                        base: "50%",
+                        lg: "-40%",
+                    }}
+                    height={{
+                        base: "600px",
+                        sm: "700px",
+                        lg: "900px",
+                        xl: "1000px",
+                    }}
+                    bottom={{
+                        base: "220px",
+                        sm: "190px",
+                        lg: "-30px",
+                        xl: "-150px",
+                    }}
+                    transform={{
+                        base: "translateX(53%)",
+                        lg: "translateX(-50%)",
+                    }}
+                />
+                <Image
+                    src={LeftCloud}
+                    position={"absolute"}
+                    left={{
+                        base: "-33%",
+                        xl: "-45%",
+                    }}
+                    top={{
+                        base: "800px",
+                        lg: "-20px",
+                        xl: "-50px",
+                    }}
+                    height={{
+                        base: "700px",
+                        md: "600px",
+                        lg: "700px",
+                        xl: "800px",
+                    }}
+                />
+                <ButtonDemo
+                        display={{
+                            base: "block",
+                            lg: "none",
+                        }}
+
+                        mt={{
+                            base: "70px",
+                            lg: "none",
+                        }}
+                    >
+                        {t("cta")}
+                    </ButtonDemo>
+                <Image
+                    src={Phone}
+                    h={{
+                        base: "300px",
+                        lg: "400px",
+                    }}
+                    zIndex={5}
+                    mt={{
+                        base: "40px"
+                    }}
+                ></Image>
+                <Flex
+                    ml={{
+                        base: "30px",
+                        sm: "50px",
+                        lg: "0",
+                    }}
+                    flexDirection={"column"}
+                    gap={4}
+                    justifyContent={"center"}
+                    zIndex={5}
+                    w={{
+                        base: "320px",
+                        sm: "450px",
+                        lg: "auto",
+                    }}
+
+                >
+                    <Heading
+                        fontSize={{
+                            base: 20,
+                            sm: 26,
+                        }}
+                        mixBlendMode={"difference"}
+                        blendMode={"overlay"}
+                        color={{
+                            base: "monyxxColors.200",
+                            lg: "white.0",
+                        }}
+                        textAlign={{
+                            base: "center",
+                            lg: "left",
+                        }}
+                    >
+                        {t("sixthSection.header")}
+                    </Heading>
+                    <Text
+                        fontSize={14}
+                        textAlign={{
+                            base: "center",
+                            lg: "left",
+                        }}
+                        color={{
+                            base: "monyxxColors.200",
+                            lg: "white.0",
+                        }}
+                    >
+                        {t("sixthSection.subtitle")}
+                    </Text>
+                    <ButtonDemo
+                        display={{
+                            base: "none",
+                            lg: "block",
+                        }}
+                        alignSelf={{
+                            base: "center",
+                            lg: "auto",
+                        }}
+                    >
+                        {t("cta")}
+                    </ButtonDemo>
+                </Flex>
+
+                <Box h={"400px"}></Box>
+            </Flex>
+            <Footer />
         </Stack>
     );
 };

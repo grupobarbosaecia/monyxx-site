@@ -59,7 +59,7 @@ export const monyxxTheme = extendTheme({
         white: {
             0: "#FFFFFF",
             200: "#CBD8F4",
-            300: "#ABB5CA"
+            300: "#ABB5CA",
         },
         green: {
             400: "#00C04B",
@@ -70,7 +70,7 @@ export const monyxxTheme = extendTheme({
             200: "#300E53",
             300: "#d2d2d2",
             400: "#c4c4c4",
-            500: "#degrade"
+            500: "#55597E"
         },
         monyxxColors: {
             100: "conic-gradient(from 149.15deg at 20.6% 100%, #0F1667 0deg, #1423D7 180deg, #0F1667 360deg)",

@@ -35,7 +35,7 @@
             }
         },
         "fourthSection": {
-            "header": "Comece a negociar de forma fácil",
+            "header": "Benefícios de fazer suas operações e investimentos na Monyxx",
             "subtitle": "Você irá se suirpreender",
             "firstCard": {
                 "header": "Conta com depósito mínimo de R$ 50,00",
@@ -68,18 +68,20 @@
                 "header": "Deposite e negocie",
                 "subtitle": "Deposite, faça investimentos e obtenha lucros com negociações rápidas e seguras."
             }
+        },
+        "sixthSection": {
+            "header": "Faça investimentos de qualquer lugar",
+            "subtitle": "Você pode negociar a qualquer momento sem precisar baixar aplicativos, faça suas negociações diretamente do seu navegador favorito.",
+            "header2": "Veja o que outras pessoas estão dizendo"
         }
+
     },
     "footer": {
-        "followUs": "SIGA-NOS",
-        "moreInfo": "Mais Informações",
-        "keepUpToDate": "Mantenha-se atualizado",
-        "placeholderEmail": "Digite o seu melhor E-mail",
-        "signUp": "Inscreva-se",
-        "allRights": "Todos os direitos reservados ©",
-        "TermsOfUse": "Termos de uso",
-        "PrivacyPolicy": "Política de Privacidade",
-        "affiliate": "Seja Afiliado"
+        "header": "Aviso de Risco:",
+        "paragraph1": "Negociar nos mercados financeiros acarreta riscos. Os contratos por diferença (“CFDs”) são produtos financeiros complexos que são negociados em margem. Negociador CFDs carrega um alto nível de risco, uma vez que a alavancagem pode funcionar tanto para sua vantagem como para sua desvantagem. Como resultado, os CFDs podem não ser adequados para todos investidores por que pode perder todo o seu capital investido. Você não deve arriscar mais do que está preparado para perder. Antes de decidir negociar, você precisa garantir que entende os riscos envolvidos e levar em conta seus objetivos de investimento e nível de experiência.",
+        "paragraph2": "Todos os direitos para copiar materiais deste site são protegidos e pertencem à “MONYXX”. Qualquer utilização de materiais deste site deverá ser coordenado com um representante oficial da “MONYXX” e ter respectivas indicações para este recurso. Quaisquer companhias terceiras pertecentes à categoria “Corretora Online” ou “Comércio online” não tem os direitos para utilizar, tanto materiais deste site, como quaisquer outras descrições “MONYXX”, inclusive falseadas. Em caso de infração desta norma, tais companhias estão sujeitas à responsabilidades, confrome as leis sobre proteção de direitos autorais.",
+        "affiliate": "Seja um afiliado",
+        "copyright": "Copyright © 2022 Monyxx - Termos de uso | Política de privacidade"
     },
     "terms": {
         "title": "Termos de condições",

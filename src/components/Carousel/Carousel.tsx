@@ -14,14 +14,17 @@ import { Flex, useBreakpointValue } from "@chakra-ui/react"
 import Card from "./Cards/Card"
 
 
-interface ICardCarousel {
+interface ICardCarousel{
 	header: string,
 	subtitle: string,
 	imgsrc: string
 }
+interface ICarousel extends JSX.Element{
+	
+}
 
 
-const Carousel: React.FC<{cards: ICardCarousel[]}> = ({cards}) => {
+const Carousel: React.FC<{cards: ICardCarousel[], transform?: string}> = ({cards, transform}) => {
 	const isMobile = useBreakpointValue({
 		base: 50,
 		sm: 50,
@@ -55,6 +58,7 @@ const Carousel: React.FC<{cards: ICardCarousel[]}> = ({cards}) => {
 				xl: 56,
 				"2xl": 80,
 			}}
+			transform={transform}
 		>
 			{!isCarousel ? (
 				cards.map((card, index) => (
