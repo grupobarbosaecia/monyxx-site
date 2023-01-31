@@ -21,13 +21,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 6px #060606;
-	background-color: #060606;
+	box-shadow: inset 0 0 6px #2a293c;
+	background: #2a293c;
 }
 
 body::-webkit-scrollbar-thumb {
 	background-color: #3f70f3;
-	border: 3px solid #060606;
+	border: 2px solid #2a293c;
 	border-radius: 10px;
 }
 /* #root {

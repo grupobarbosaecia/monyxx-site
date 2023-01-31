@@ -1,6 +1,6 @@
-import { chakra } from "@chakra-ui/react"
+import { chakra, ButtonProps } from "@chakra-ui/react"
 
-const ButtonDemo = chakra("button", {
+const ButtonStyle = chakra("button", {
 	// attach style props
 	baseStyle: {
 		bg: "linear-gradient(134.01deg, #52F592 6.22%, #2DA55B 96.59%);",
@@ -25,8 +25,20 @@ const ButtonDemo = chakra("button", {
 		fontFamily: "Poppins",
 		boxShadow: "0px 5px 15px rgba(70, 165, 98, 0.76);",
 		_active: {
-			transform: "translateY(1px)"
-		}
+			transform: "translateY(1px)",
+		},
 	},
 })
+
+const ButtonDemo: React.FC<ButtonProps> = (props: ButtonProps) => {
+	return (
+		<ButtonStyle
+			{...props}
+			onClick={() =>
+				(window.location.href = "https://app.monyxx.com/sign")
+			}
+		/>
+	)
+}
+
 export default ButtonDemo

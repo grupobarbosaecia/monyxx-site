@@ -279,6 +279,10 @@ const Header: React.FC = () => {
 													"linear-gradient(180deg, #1B28B0 0%, #4073F6 100%);",
 											}}
 											fontSize={"14px"}
+											onClick={() =>
+												(window.location.href =
+													"https://app.monyxx.com/sign")
+											}
 										>
 											{t("login")}
 										</Button>
@@ -294,6 +298,10 @@ const Header: React.FC = () => {
 												background:
 													"linear-gradient(180deg, #04AA45 0%, #4DFB91 100%); ",
 											}}
+											onClick={() =>
+												(window.location.href =
+													"https://app.monyxx.com/sign")
+											}
 										>
 											{t("register")}
 										</Button>
@@ -320,6 +328,10 @@ const Header: React.FC = () => {
 							}}
 							fontSize={"14px"}
 							boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25);"}
+							onClick={() =>
+								(window.location.href =
+									"https://app.monyxx.com/sign")
+							}
 						>
 							{t("login")}
 						</Button>
@@ -337,6 +349,10 @@ const Header: React.FC = () => {
 								boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.25)",
 							}}
 							boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25);"}
+							onClick={() =>
+								(window.location.href =
+									"https://app.monyxx.com/sign")
+							}
 						>
 							{t("register")}
 						</Button>
