@@ -30,9 +30,6 @@ body::-webkit-scrollbar-thumb {
 	border: 2px solid #2a293c;
 	border-radius: 10px;
 }
-/* #root {
-  background: conic-gradient(from 149.15deg at 20.6% 100%, #0F1667 0deg, #1423D7 180deg, #0F1667 360deg);
-} */
 
 #root {
 	overflow-x: hidden;

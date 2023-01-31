@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 375px) {
 	.mySwiper .swiper-slide {
-		width: 90%;
+		width: 80%;
 	}
 
 	.cardCarousel::after {
@@ -142,6 +142,6 @@
 	}
 
 	.swiper-slide {
-		max-height: 370px;
+		max-height: 355px !important;
 	}
 }

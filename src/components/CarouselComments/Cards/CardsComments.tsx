@@ -21,6 +21,10 @@ const CardComment: React.FC<CardCommentProps> = (props: CardCommentProps) => {
 
 	return (
 		<Flex
+			mt={{
+				base: "-140px",
+				sm: "0",
+			}}
 			w={"full"}
 			maxW={{
 				base: "none",
@@ -52,7 +56,10 @@ const CardComment: React.FC<CardCommentProps> = (props: CardCommentProps) => {
 					base: "95%",
 					md: "80%",
 				}}
-				fontSize={16}
+				fontSize={{
+					base: 15,
+					sm: 16,
+				}}
 				textAlign={"justify"}
 				textOverflow={"ellipsis"}
 				overflow={"hidden"}

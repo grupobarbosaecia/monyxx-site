@@ -299,9 +299,8 @@ const Home: React.FC = () => {
 			{/* Fourth Section */}
 			<Flex
 				id="FourthSection"
-				// backgroundImage={candle}
 				mt={{
-					base: "-150px !important",
+					base: "-230px !important",
 					md: "0 !important",
 				}}
 				px={["5", "16", "20", "36", "60"]}
@@ -609,7 +608,7 @@ const Home: React.FC = () => {
 						md: "auto",
 					}}
 					top={{
-						base: "1600px",
+						base: "1650px",
 						md: "1200px",
 						lg: "480px",
 					}}

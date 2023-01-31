@@ -134,4 +134,8 @@
 	.swiper.comments .swiper-slide {
 		width: 85%;
 	}
+
+	.swiper.comments .swiper-pagination {
+		bottom: 140px !important;
+	}
 }
