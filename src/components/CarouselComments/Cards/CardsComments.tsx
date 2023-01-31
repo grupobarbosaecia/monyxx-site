@@ -32,7 +32,7 @@ const CardComment: React.FC<CardCommentProps> = (props: CardCommentProps) => {
 			}}
 			h={{
 				base: "full",
-				md: "auto",
+				md: "230px",
 			}}
 			maxH={{
 				base: "430px",
@@ -45,7 +45,6 @@ const CardComment: React.FC<CardCommentProps> = (props: CardCommentProps) => {
 			alignItems={"center"}
 			justifyContent={{
 				base: "space-between",
-				md: "normal",
 			}}
 			flexDirection={"column"}
 			gap={2}

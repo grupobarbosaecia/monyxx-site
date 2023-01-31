@@ -90,9 +90,15 @@ const Footer: React.FC = () => {
 					}}
 				>
 					<SocialMedia icon={Facebook} />
-					<SocialMedia icon={instagram} />
+					<SocialMedia
+						icon={instagram}
+						link="https://www.instagram.com/monyxxofficial/"
+					/>
 					<SocialMedia icon={Twitter} />
-					<SocialMedia icon={Youtube} />
+					<SocialMedia
+						icon={Youtube}
+						link="https://www.youtube.com/@monyxxofficial1572"
+					/>
 					<SocialMedia icon={telegram} />
 					<SocialMedia icon={tiktok} />
 				</Flex>

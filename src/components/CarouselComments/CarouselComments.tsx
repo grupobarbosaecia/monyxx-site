@@ -50,7 +50,7 @@ const CarouselComments: React.FC<{ users: user[] }> = ({ users }) => {
 						dynamicBullets: true,
 					}}
 					slidesPerView={"auto"}
-					spaceBetween={50}
+					spaceBetween={0}
 					centeredSlides={true}
 					modules={[Pagination]}
 					draggable={true}

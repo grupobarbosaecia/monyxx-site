@@ -29,6 +29,9 @@ import CarouselComments from "../../components/CarouselComments/CarouselComments
 import { useTranslation } from "react-i18next"
 import { largeArrowIcon } from "../../assets/icons"
 import { ArrowUpIcon } from "@chakra-ui/icons"
+import velha from "../../assets/velha.jpg"
+import novinha from "../../assets/novinha.jpg"
+import alvaro from "../../assets/alvaro.jpg"
 const Home: React.FC = () => {
 	const { t } = useTranslation("main")
 	const isTablet = useBreakpointValue({
@@ -747,22 +750,25 @@ const Home: React.FC = () => {
 				<CarouselComments
 					users={[
 						{
-							name: "Thomas A.",
-							id: "1231232",
+							name: "Elizabeth Nunes",
+							id: "198736",
 							comment:
-								"He estado haciendo mis operaciones en Monyxx durante más de 3 semanas y Mis experiencias con el corredor son 100% buenas, todos mis retiros se realizaron y mis depósitos se realizaron en uns segundos, lo que me ayuda a mantener mis transacciones.",
+								"From my experience with the platform I can say that I liked it very much and I think everyone should get to know it. Very secure and easy to use.",
+							image: novinha,
 						},
 						{
-							name: "Thomas A.",
-							id: "1231232",
+							name: "García Rodriguez",
+							id: "087341",
 							comment:
 								"He estado haciendo mis operaciones en Monyxx durante más de 3 semanas y Mis experiencias con el corredor son 100% buenas, todos mis retiros se realizaron y mis depósitos se realizaron en uns segundos, lo que me ayuda a mantener mis transacciones.",
+							image: alvaro,
 						},
 						{
-							name: "Thomas A.",
-							id: "1231232",
+							name: "Ana Silveira Lima",
+							id: "254673",
 							comment:
-								"He estado haciendo mis operaciones en Monyxx durante más de 3 semanas y Mis experiencias con el corredor son 100% buenas, todos mis retiros se realizaron y mis depósitos se realizaron en uns segundos, lo que me ayuda a mantener mis transacciones.",
+								"plataforma incrível e com apenas um pouco da minha renda extra, consegui aumentar e melhorar minha vida. Continuem assim monyxx belo trabalho e muito sucesso",
+							image: velha,
 						},
 					]}
 				/>
