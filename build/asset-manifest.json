@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.421aef9c.css",
+    "main.js": "/static/js/main.06d6456a.js",
+    "static/js/787.a8a0003f.chunk.js": "/static/js/787.a8a0003f.chunk.js",
+    "static/media/novinha.jpg": "/static/media/novinha.58d6730d26b5469ca519.jpg",
+    "static/media/velha.jpg": "/static/media/velha.b84c062286d943426966.jpg",
+    "static/media/alvaro.jpg": "/static/media/alvaro.40e9d27bd573bec379ba.jpg",
+    "static/media/main-notebook.png": "/static/media/main-notebook.9bfda692d0a7bbbdfbce.png",
+    "static/media/es-ES.svg": "/static/media/es-ES.145593af1396c1faab41dd4c69da0de4.svg",
+    "static/media/logo.png": "/static/media/logo.52d0a5cdf601df122ac1.png",
+    "static/media/logo-mob.png": "/static/media/logo-mob.74febb0ea005d4c3f1a7.png",
+    "static/media/Phone.png": "/static/media/Phone.d62b156d61d5c29c7239.png",
+    "static/media/RightCloud.png": "/static/media/RightCloud.7587e2c90d84549e8f84.png",
+    "static/media/TECNOLOGIA1.png": "/static/media/TECNOLOGIA1.dc9a815d5c0b7eae3f8d.png",
+    "static/media/INTERFACE1.png": "/static/media/INTERFACE1.73b673444208c49ae41d.png",
+    "static/media/LeftCloud.png": "/static/media/LeftCloud.a03cb537b12287ba935f.png",
+    "static/media/pt-BR.svg": "/static/media/pt-BR.c00b4e4a363073e5829d9888ef257b31.svg",
+    "static/media/VELOCIDADE1.png": "/static/media/VELOCIDADE1.f392981920b1bc972bfb.png",
+    "static/media/CADASTRESE1.png": "/static/media/CADASTRESE1.4872c5f9ce5f74b98dbe.png",
+    "static/media/NEGOCIACOES1.png": "/static/media/NEGOCIACOES1.95a532a92b5f708f819a.png",
+    "static/media/DEPOSITE1.png": "/static/media/DEPOSITE1.e402008262ac3d5ab4bc.png",
+    "static/media/Youtube.svg": "/static/media/Youtube.4d7de1baf2fb48620e725d28a78e7451.svg",
+    "static/media/telegram.svg": "/static/media/telegram.e4ad268434a86311205cf1e33018f7a6.svg",
+    "static/media/instagram.svg": "/static/media/instagram.4b68d0d314dfbec03eb7462bd074c426.svg",
+    "static/media/Twitter.svg": "/static/media/Twitter.7014b1d683dbdb296a5b8a8b5bfb014c.svg",
+    "static/media/Facebook.svg": "/static/media/Facebook.7f229c5eceac0dbd80cf54b1cb9b5150.svg",
+    "static/media/tiktok.svg": "/static/media/tiktok.85bbaba1955cb222c9139e1a182b87e8.svg",
+    "static/media/en.svg": "/static/media/en.a7fd542f7556fd4d4bb54d64bd008d11.svg",
+    "index.html": "/index.html",
+    "static/media/clipBgDesktop.svg": "/static/media/clipBgDesktop.3caf0091d5e77420a469eba1eb1977a9.svg",
+    "static/media/clipBg.svg": "/static/media/clipBg.76213d158434b1989c24fe4363005802.svg",
+    "main.421aef9c.css.map": "/static/css/main.421aef9c.css.map",
+    "main.06d6456a.js.map": "/static/js/main.06d6456a.js.map",
+    "787.a8a0003f.chunk.js.map": "/static/js/787.a8a0003f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.421aef9c.css",
+    "static/js/main.06d6456a.js"
+  ]
+}
