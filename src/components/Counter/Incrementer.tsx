@@ -1,4 +1,3 @@
-import { Box } from "@chakra-ui/react"
 import { useEffect, useState } from "react"
 
 interface IIncrementer {
@@ -19,7 +18,7 @@ const Incrementer: React.FC<IIncrementer> = ({
 		return () => clearTimeout(timer)
 	}, [])
 
-	return <Box>{Intl.NumberFormat("de-DE").format(Math.floor(count))}</Box>
+	return <>{Intl.NumberFormat("de-DE").format(Math.floor(count))}</>
 }
 
 export default Incrementer
