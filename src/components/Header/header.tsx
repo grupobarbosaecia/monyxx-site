@@ -149,7 +149,7 @@ const Header: React.FC = () => {
 							onClose={onClose}
 							finalFocusRef={algumref}
 							size={{
-								base: "full",
+								base: "xl",
 								sm: "xs",
 								md: "xs",
 								lg: "xs",
@@ -180,7 +180,7 @@ const Header: React.FC = () => {
 									/>
 								</DrawerHeader>
 
-								<DrawerBody>
+								<DrawerBody px={4}>
 									<Flex
 										gap={"2"}
 										flexDirection={"column"}
@@ -258,7 +258,7 @@ const Header: React.FC = () => {
 									</Flex>
 								</DrawerBody>
 
-								<DrawerFooter py={"7"}>
+								<DrawerFooter>
 									<Flex
 										w={"100%"}
 										flexDirection={{
@@ -266,6 +266,7 @@ const Header: React.FC = () => {
 											base: "column",
 										}}
 										gap={"2.5"}
+										// pb={"50px"}
 									>
 										<Button
 											w={"100%"}

@@ -32,6 +32,8 @@ import { ArrowUpIcon } from "@chakra-ui/icons"
 import velha from "../../assets/velha.jpg"
 import novinha from "../../assets/novinha.jpg"
 import alvaro from "../../assets/alvaro.jpg"
+import Incrementer from "../../components/Counter/Incrementer"
+
 const Home: React.FC = () => {
 	const { t } = useTranslation("main")
 	const isTablet = useBreakpointValue({
@@ -182,7 +184,7 @@ const Home: React.FC = () => {
 								"2xl": "18px",
 							}}
 						>
-							1.235.889
+							<Incrementer defaultValue={40} />
 						</Text>
 						<Text fontSize={14}>
 							{t("secondSection.firstCard")}
@@ -217,7 +219,7 @@ const Home: React.FC = () => {
 								"2xl": "18px",
 							}}
 						>
-							19.235.889
+							<Incrementer defaultValue={5} />
 						</Text>
 						<Text fontSize={14}>
 							{t("secondSection.secondCard")}

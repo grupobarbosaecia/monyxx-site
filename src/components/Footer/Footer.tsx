@@ -1,4 +1,4 @@
-import { Grid, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react"
+import { Grid, Flex, Heading, Image, Link, Text } from "@chakra-ui/react"
 import React from "react"
 import { useTranslation } from "react-i18next"
 import SocialMedia from "./SocialMedia/SocialMedia"
@@ -9,8 +9,10 @@ import tiktok from "../../assets/icons/tiktok.svg"
 import telegram from "../../assets/icons/telegram.svg"
 import instagram from "../../assets/icons/instagram.svg"
 import logo from "../../assets/logo.png"
+import { useNavigate } from "react-router-dom"
 
 const Footer: React.FC = () => {
+	const navigate = useNavigate()
 	const { t } = useTranslation("footer")
 	return (
 		<Flex
@@ -118,7 +120,12 @@ const Footer: React.FC = () => {
 					justifySelf={"center"}
 					alignSelf={"center"}
 				>
-					{t("affiliate")}
+					<Link
+						href="https://telegram.me/MonyxxAfiliate"
+						target={"_blank"}
+					>
+						{t("affiliate")}
+					</Link>
 				</Text>
 				<Text
 					gridRow={{
@@ -140,6 +147,10 @@ const Footer: React.FC = () => {
 					textAlign={"center"}
 				>
 					{t("copyright")}
+					<Link onClick={() => navigate("/terms")}>{t("terms")}</Link>
+					<Link onClick={() => navigate("/policy")}>
+						{t("privacy")}
+					</Link>
 				</Text>
 
 				<Image
