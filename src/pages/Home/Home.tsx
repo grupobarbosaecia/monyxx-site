@@ -247,6 +247,7 @@ const Home: React.FC = () => {
 					base: "1350px",
 					sm: "1430px",
 					lg: "1490px",
+					"2xl": "1600px",
 				}}
 			>
 				<Heading
@@ -294,7 +295,7 @@ const Home: React.FC = () => {
 					<ButtonDemo
 						mt={{
 							base: "-40px",
-							md: 6,
+							md: 10,
 						}}
 					>
 						{t("cta")}
@@ -311,6 +312,7 @@ const Home: React.FC = () => {
 				px={["5", "16", "20", "36", "60"]}
 				gap={10}
 				alignItems={"center"}
+				justifyContent={"space-between"}
 				flexDirection={{
 					base: "column",
 					md: "row",
@@ -323,6 +325,9 @@ const Home: React.FC = () => {
 						base: "100%",
 						md: "70%",
 						xl: "75%",
+					}}
+					maxW={{
+						base: "550px",
 					}}
 					gap={{
 						base: 6,
@@ -366,7 +371,12 @@ const Home: React.FC = () => {
 						{t("cta")}
 					</ButtonDemo>
 				</Flex>
-				<Stack gap={6}>
+				<Stack
+					gap={6}
+					maxW={{
+						base: "630px",
+					}}
+				>
 					<Stack
 						bg={"monyxxColors.degrade.black"}
 						px={6}
@@ -499,6 +509,7 @@ const Home: React.FC = () => {
 					base: "1350px",
 					sm: "1430px",
 					lg: "1490px",
+					"2xl": "1600px",
 				}}
 			>
 				<Heading
@@ -548,7 +559,7 @@ const Home: React.FC = () => {
 					<ButtonDemo
 						mt={{
 							base: "-40px",
-							md: 6,
+							md: 12,
 						}}
 						transform={"rotateY(180deg)"}
 						_active={{
@@ -565,6 +576,7 @@ const Home: React.FC = () => {
 				position={"relative"}
 				px={["5", "16", "20", "36", "60"]}
 				alignItems={"center"}
+				justifyContent={"center"}
 				mt={{
 					base: "-400px !important",
 					lg: "-100px !important",
@@ -580,6 +592,7 @@ const Home: React.FC = () => {
 					right={{
 						base: "50%",
 						lg: "-60%",
+						"2xl": "-45%",
 					}}
 					minWidth={{
 						base: "480px",
@@ -607,6 +620,7 @@ const Home: React.FC = () => {
 					left={{
 						base: "-33%",
 						xl: "-35%",
+						"2xl": "-10%",
 					}}
 					minW={{
 						base: "400px",

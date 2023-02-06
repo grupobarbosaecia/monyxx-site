@@ -106,5 +106,6 @@ export const monyxxTheme = extendTheme({
         lg: '69em',
         xl: '80em',
         '2xl': '96em',
+        "3xl": '1800px'
     }
 });

@@ -44,12 +44,15 @@ const Carousel: React.FC<{ cards: ICardCarousel[]; transform?: string }> = ({
 				base: 14,
 				md: 6,
 				xl: 10,
-				"2xl": 15,
+				"2xl": 14,
+				"3xl": 20,
 			}}
 			height={{
 				base: "680px",
 				md: "300px",
 				lg: "370px",
+				"2xl": "400px",
+				"3xl": "420px",
 			}}
 			px={{
 				base: 0,
@@ -57,7 +60,7 @@ const Carousel: React.FC<{ cards: ICardCarousel[]; transform?: string }> = ({
 				md: 20,
 				lg: 36,
 				xl: 56,
-				"2xl": 80,
+				"2xl": 60,
 			}}
 			transform={transform}
 		>

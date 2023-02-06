@@ -50,9 +50,15 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
 					sm: 16,
 					md: 16,
 					lg: 18,
-					"2xl": 21,
+					xl: 20,
+					"2xl": 22,
+					"3xl": 24,
 				}}
-				w={"95%"}
+				w={{
+					base: "95%",
+					"2xl": "85%",
+					"3xl": "90%",
+				}}
 				color={"white.0"}
 				fontWeight={"500"}
 			>
@@ -62,7 +68,9 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
 				className="cardSubtitle"
 				fontSize={{
 					base: 13,
-					"2xl": 15,
+					xl: 15,
+					"2xl": 16,
+					"3xl": 18,
 				}}
 				w={"85%"}
 				color={"white.0"}
