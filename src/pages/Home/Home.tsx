@@ -783,7 +783,7 @@ const Home: React.FC = () => {
 							name: "Ana Silveira Lima",
 							id: "254673",
 							comment:
-								"plataforma incrível e com apenas um pouco da minha renda extra, consegui aumentar e melhorar minha vida. Continuem assim monyxx belo trabalho e muito sucesso",
+								"Plataforma incrível e com apenas um pouco da minha renda extra, consegui aumentar e melhorar minha vida. Continuem assim monyxx belo trabalho e muito sucesso",
 							image: velha,
 						},
 					]}

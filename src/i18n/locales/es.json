@@ -1,6 +1,6 @@
 {
 	"header": {
-		"register": "Cadastrar",
+		"register": "Registrar",
 		"login": "Entrar",
 		"links": {
 			"1": "Inicio",
@@ -84,7 +84,7 @@
 		"paragraph1": "Operar en los mercados financieros conlleva riesgos. Los contratos por diferencias ('CFD') son productos financieros complejos que se negocian con margen. Operar con CFD conlleva un alto nivel de riesgo, ya que el apalancamiento puede jugar tanto a su favor como en su contra. En consecuencia, los CFD pueden no ser adecuados para todos los inversores, ya que podría perder todo el capital invertido. No debe arriesgar más de lo que esté dispuesto a perder. Antes de decidirse a operar, debe asegurarse de que comprende los riesgos que implica y tener en cuenta sus objetivos de inversión y su nivel de experiencia.",
 		"paragraph2": "Todos los derechos de copia de los materiales de este sitio están protegidos y pertenecen a 'MONYXX'. Cualquier uso de los materiales de este sitio debe ser coordinado con un representante oficial de 'MONYXX' y contar con las respectivas instrucciones para este recurso. Las empresas de terceros pertenecientes a la categoría 'Corredor en línea' o 'Comercio en línea' no tienen derecho a utilizar los materiales de este sitio ni ninguna otra descripción de 'MONYXX', ni siquiera de forma distorsionada. En caso de infracción de esta norma, dichas empresas están sujetas a responsabilidad en virtud de las leyes de protección de los derechos de autor.",
 		"affiliate": "Afiliarse",
-		"copyright": "Copyright © 2022 Monyxx -",
+		"copyright": "Copyright © 2020 Monyxx -",
 		"terms": "Condiciones de uso",
 		"privacy": " | Política de privacidad"
 	},
