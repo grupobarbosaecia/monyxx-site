@@ -91,18 +91,30 @@ const Footer: React.FC = () => {
 						lg: "flex-end",
 					}}
 				>
-					<SocialMedia icon={Facebook} />
+					<SocialMedia
+						icon={Facebook}
+						link="https://www.facebook.com/monyxxofficial"
+					/>
 					<SocialMedia
 						icon={instagram}
 						link="https://www.instagram.com/monyxxofficial/"
 					/>
-					<SocialMedia icon={Twitter} />
+					<SocialMedia
+						icon={Twitter}
+						link="https://twitter.com/monyxxofficial"
+					/>
 					<SocialMedia
 						icon={Youtube}
 						link="https://www.youtube.com/@monyxxofficial1572"
 					/>
-					<SocialMedia icon={telegram} />
-					<SocialMedia icon={tiktok} />
+					<SocialMedia
+						icon={telegram}
+						link="https://t.me/monyxxofficial"
+					/>
+					<SocialMedia
+						icon={tiktok}
+						link="https://www.tiktok.com/@monyxxofficial"
+					/>
 				</Flex>
 
 				<Text
