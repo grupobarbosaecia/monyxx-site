@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
 					/>
 					<SocialMedia
 						icon={Youtube}
-						link="https://www.youtube.com/@monyxxofficial1572"
+						link="https://www.youtube.com/@monyxxoficial"
 					/>
 					<SocialMedia
 						icon={telegram}
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
 					/>
 					<SocialMedia
 						icon={tiktok}
-						link="https://www.tiktok.com/@monyxxofficial"
+						link="http://www.tiktok.com/@monyxxofficial?is_from_webapp=1&sender_device=pc"
 					/>
 				</Flex>
 
